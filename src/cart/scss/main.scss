@@ -1,4 +1,15 @@
 
+@-webkit-keyframes "bounce" {
+	0% {
+		transform: scale(0.5);
+	}
+	50% {
+		transform: scale(1.5);
+	}
+	0% {
+		transform: scale(1);
+	}
+}
 @keyframes "bounce" {
 	0% {
 		transform: scale(0.5);
@@ -10,7 +21,22 @@
 		transform: scale(1);
 	}
 }
-
+/*
+======================
+Testimonial 
+======================
+*/
+/*
+======================
+Testimonial Media Query
+======================
+*/
+/*
+======================
+Footer
+======================
+*/
+/*# sourceMappingURL=main.css.map */
 &:root {
 	--primarycolor: #f1f1f1;
 	--black: #222;
@@ -42,13 +68,13 @@ body {
 	font-size: 1.6rem;
 	font-weight: 400;
 	font-family: "Archivo", sans-serif;
-	color: var(--black);
+	color: #222;
 }
 input {
 	font-size: 1.6rem;
 	font-weight: 400;
 	font-family: "Archivo", sans-serif;
-	color: var(--black);
+	color: #222;
 }
 a {
 	text-decoration: none;
@@ -91,13 +117,13 @@ h4 {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: var(--white);
+	background-color: white;
 	z-index: 1200;
 }
 .nav__logo {
 	a {
 		font-size: 2.5rem;
-		color: var(--black);
+		color: #222;
 		padding: 1.6rem;
 		font-weight: 700;
 	}
@@ -126,18 +152,18 @@ h4 {
 			display: inline-block;
 			font-size: 1.4rem;
 			text-transform: uppercase;
-			color: var(--black);
+			color: #222;
 			transition: color 0.3s ease-in-out;
 		}
 		&:visited {
 			display: inline-block;
 			font-size: 1.4rem;
 			text-transform: uppercase;
-			color: var(--black);
+			color: #222;
 			transition: color 0.3s ease-in-out;
 		}
 		&:hover {
-			color: var(--orange);
+			color: #eb0028;
 		}
 	}
 }
@@ -158,18 +184,18 @@ h4 {
 		justify-content: center;
 		align-items: center;
 		padding: 0.7rem;
-		border: 1px solid var(--black);
+		border: 1px solid #222;
 		border-radius: 50%;
 		transition: background-color 0.3s ease-in-out;
 		&:link {
-			color: var(--black);
+			color: #222;
 		}
 		&:visited {
-			color: var(--black);
+			color: #222;
 		}
 		&:hover {
-			background-color: var(--orange);
-			border: 1px solid var(--black);
+			background-color: #eb0028;
+			border: 1px solid #222;
 		}
 		&:not(:last-child) {
 			margin-right: 1rem;
@@ -180,14 +206,14 @@ h4 {
 		position: absolute;
 		top: 2px;
 		right: -6px;
-		background-color: var(--orange);
+		background-color: #eb0028;
 		padding: 0.2rem 0.4rem;
 		border-radius: 100%;
-		color: var(--primaryColor);
+		color: #f1f1f1;
 	}
 }
 .page__title-area {
-	background-color: var(--primaryColor);
+	background-color: #f1f1f1;
 }
 .page__title-container {
 	padding: 1rem;
@@ -196,13 +222,13 @@ h4 {
 	display: flex;
 	align-items: center;
 	font-size: 1.2rem;
-	color: var(--grey2);
+	color: #666;
 	a {
 		margin-right: 2rem;
 		svg {
 			width: 1.8rem;
 			height: 1.8rem;
-			fill: var(--grey2);
+			fill: #666;
 		}
 	}
 }
@@ -216,12 +242,12 @@ h4 {
 	}
 }
 .hero {
-	background-color: var(--primaryColor);
+	background-color: #f1f1f1;
 	position: relative;
 	width: 100%;
 	height: 100vh;
 	.glide__slides {
-		background-color: var(--primaryColor);
+		background-color: #f1f1f1;
 		position: relative;
 		width: 100%;
 		height: 100vh;
@@ -235,13 +261,13 @@ h4 {
 		padding: 1.5rem 1.7rem;
 		opacity: 0;
 		border: none;
-		background-color: var(--grey);
+		background-color: #959595;
 		transition: all 0.5s ease-in-out 0.2s;
 		border-radius: 50%;
 		svg {
 			height: 1.8rem;
 			width: 1.8rem;
-			fill: var(--primaryColor);
+			fill: #f1f1f1;
 		}
 	}
 	&:hover {
@@ -258,7 +284,7 @@ h4 {
 }
 .glide__arrow {
 	&:hover {
-		background-color: var(--black);
+		background-color: #222;
 	}
 }
 .glide__arrow--left {
@@ -285,7 +311,7 @@ h4 {
 		&:hover {
 			font-weight: 700;
 			background-color: transparent;
-			color: var(--black);
+			color: #222;
 		}
 	}
 	h1 {
@@ -299,12 +325,12 @@ h4 {
 	display: inline-block;
 	font-weight: 700;
 	font-size: 1.4rem;
-	background-color: var(--black);
-	color: var(--primaryColor);
+	background-color: #222;
+	color: #f1f1f1;
 	cursor: pointer;
 	margin-top: 1rem;
 	padding: 1.5rem 4rem;
-	border: 1px solid var(--black);
+	border: 1px solid #222;
 	transition: all 0.3s ease-in-out;
 	&:focus {
 		outline: none;
@@ -339,7 +365,7 @@ h4 {
 	padding: 1rem;
 	flex: 0 0 48%;
 	height: 30rem;
-	background-color: var(--primaryColor);
+	background-color: #f1f1f1;
 	&:not(:last-child) {
 		margin-right: 1.6rem;
 	}
@@ -361,7 +387,7 @@ h4 {
 	align-items: center;
 	justify-content: center;
 	span {
-		color: var(--black);
+		color: #222;
 	}
 	h1 {
 		margin-top: 0.5rem;
@@ -373,9 +399,9 @@ h4 {
 			padding: 1rem 1.4rem;
 			margin-top: 1.3rem;
 			border-radius: 3rem;
-			border: 2px solid var(--secondaryColor);
-			color: var(--primaryColor);
-			background-color: var(--secondaryColor);
+			border: 2px solid #2b1f4d;
+			color: #f1f1f1;
+			background-color: #2b1f4d;
 			transition: all 0.3s ease-in-out;
 		}
 		&:visited {
@@ -384,14 +410,14 @@ h4 {
 			padding: 1rem 1.4rem;
 			margin-top: 1.3rem;
 			border-radius: 3rem;
-			border: 2px solid var(--secondaryColor);
-			color: var(--primaryColor);
-			background-color: var(--secondaryColor);
+			border: 2px solid #2b1f4d;
+			color: #f1f1f1;
+			background-color: #2b1f4d;
 			transition: all 0.3s ease-in-out;
 		}
 		&:hover {
 			background-color: transparent;
-			color: var(--secondaryColor);
+			color: #2b1f4d;
 		}
 	}
 }
@@ -401,7 +427,7 @@ h4 {
 	justify-content: center;
 	margin: 0 auto 6rem;
 	padding: 2rem 0;
-	background-color: var(--primaryColor);
+	background-color: #f1f1f1;
 }
 .section__titles {
 	&:not(:last-child) {
@@ -438,7 +464,7 @@ span.dot {
 	opacity: 0.6;
 	padding: 0.45rem;
 	position: relative;
-	border: 1px solid var(--black);
+	border: 1px solid #222;
 	cursor: pointer;
 	transition: opacity 0.3s ease-in-out;
 	&::before {
@@ -448,8 +474,8 @@ span.dot {
 		left: 0;
 		right: 0;
 		bottom: 0;
-		border: 1px solid var(--black);
-		background-color: var(--black);
+		border: 1px solid #222;
+		background-color: #222;
 		margin: 1px;
 		opacity: 0.6;
 	}
@@ -476,7 +502,7 @@ span.dot {
 		svg {
 			width: 1.7rem;
 			height: 1.7rem;
-			fill: var(--white);
+			fill: #fff;
 		}
 		position: absolute;
 		display: flex;
@@ -501,25 +527,25 @@ span.dot {
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			background-color: var(--orange);
+			background-color: #eb0028;
 			width: 3.5rem;
 			height: 3.5rem;
 			cursor: pointer;
 			transition: 0.5s;
 			&:hover {
-				background-color: var(--black);
+				background-color: #222;
 				&::before {
 					width: 126%;
 					height: 126%;
-					border-top: 3px solid var(--black);
-					border-left: 3px solid var(--black);
+					border-top: 3px solid #222;
+					border-left: 3px solid #222;
 					opacity: 1;
 				}
 				&::after {
 					width: 126%;
 					height: 126%;
-					border-bottom: 3px solid var(--black);
-					border-right: 3px solid var(--black);
+					border-bottom: 3px solid #222;
+					border-right: 3px solid #222;
 					opacity: 1;
 				}
 			}
@@ -530,8 +556,8 @@ span.dot {
 				left: -0.6rem;
 				height: 0;
 				width: 0;
-				border-top: 3px solid var(--orange);
-				border-left: 3px solid var(--orange);
+				border-top: 3px solid #eb0028;
+				border-left: 3px solid #eb0028;
 				transition: 0.5s;
 				opacity: 0;
 				z-index: 1;
@@ -543,8 +569,8 @@ span.dot {
 				right: -0.6rem;
 				width: 0;
 				height: 0;
-				border-bottom: 3px solid var(--orange);
-				border-right: 3px solid var(--orange);
+				border-bottom: 3px solid #eb0028;
+				border-right: 3px solid #eb0028;
 				z-index: 1;
 				opacity: 0;
 				transition: 0.5s;
@@ -582,7 +608,7 @@ span.dot {
 	svg {
 		width: 1.6rem;
 		height: 1.6rem;
-		fill: var(--yellow);
+		fill: #ffcc00;
 	}
 }
 .product__btn {
@@ -591,34 +617,34 @@ span.dot {
 	text-transform: uppercase;
 	width: 100%;
 	padding: 1.4rem 0;
-	border: 1px solid var(--black);
-	color: var(--black);
+	border: 1px solid #222;
+	color: #222;
 	cursor: pointer;
 	&:focus {
 		outline: none;
 	}
 	&:hover {
-		background-color: var(--black);
-		color: var(--primaryColor);
+		background-color: #222;
+		color: #f1f1f1;
 	}
 }
 .latest__products {
 	.glide__arrow {
 		background-color: transparent;
-		border: 1px solid var(--primaryColor);
+		border: 1px solid #f1f1f1;
 		outline: none;
 		border-radius: 0;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0);
 		top: -7%;
 		left: 80%;
 		&:hover {
-			background-color: var(--orange);
-			border: 1px solid var(--primaryColor);
+			background-color: #eb0028;
+			border: 1px solid #f1f1f1;
 		}
 		svg {
 			width: 1.5rem;
 			height: 1.5rem;
-			fill: var(--grey);
+			fill: #959595;
 		}
 	}
 	.glide__arrow--left {
@@ -631,20 +657,20 @@ span.dot {
 .related__products {
 	.glide__arrow {
 		background-color: transparent;
-		border: 1px solid var(--primaryColor);
+		border: 1px solid #f1f1f1;
 		outline: none;
 		border-radius: 0;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0);
 		top: -7%;
 		left: 80%;
 		&:hover {
-			background-color: var(--orange);
-			border: 1px solid var(--primaryColor);
+			background-color: #eb0028;
+			border: 1px solid #f1f1f1;
 		}
 		svg {
 			width: 1.5rem;
 			height: 1.5rem;
-			fill: var(--grey);
+			fill: #959595;
 		}
 	}
 	.glide__arrow--left {
@@ -699,7 +725,7 @@ span.dot {
 	padding: 10px;
 	cursor: pointer;
 	&:hover {
-		background: hsl(0, 0%, 92%);
+		background: hsl(0deg, 0%, 92%);
 	}
 }
 .category__center {
@@ -768,6 +794,7 @@ span.dot {
 		height: 45rem;
 		max-width: 100%;
 		border-radius: 1rem;
+		-o-object-fit: cover;
 		object-fit: cover;
 	}
 }
@@ -844,6 +871,7 @@ span.dot {
 		visibility: hidden;
 		cursor: pointer;
 		transition: 0.3s;
+		-webkit-animation: bounce 2s ease-in-out infinite;
 		animation: bounce 2s ease-in-out infinite;
 	}
 	&:visited {
@@ -856,6 +884,7 @@ span.dot {
 		visibility: hidden;
 		cursor: pointer;
 		transition: 0.3s;
+		-webkit-animation: bounce 2s ease-in-out infinite;
 		animation: bounce 2s ease-in-out infinite;
 	}
 	svg {
@@ -879,7 +908,7 @@ span.dot {
 }
 .testimonial {
 	position: relative;
-	background: url("./bilder/testimonial.jpg") center/cover no-repeat;
+	background: url("./images/testimonial.jpg") center/cover no-repeat;
 	height: 50rem;
 	padding: 5rem 0;
 	z-index: 1;
@@ -904,6 +933,7 @@ span.dot {
 		width: 7rem;
 		height: 7rem;
 		max-width: 100%;
+		-o-object-fit: cover;
 		object-fit: cover;
 		border-radius: 50%;
 	}
@@ -988,7 +1018,7 @@ span.dot {
 		top: 0;
 		left: -30rem;
 		width: 0;
-		background-color: var(--white);
+		background-color: #fff;
 		z-index: 9990;
 		height: 100%;
 		transition: all 0.5s;
@@ -1007,16 +1037,16 @@ span.dot {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		background-color: var(--orange);
+		background-color: #eb0028;
 		padding: 1.8rem 1rem;
 		svg {
 			height: 1.6rem;
 			width: 1.6rem;
-			fill: var(--primaryColor);
+			fill: #f1f1f1;
 		}
 	}
 	.nav__category {
-		color: var(--white);
+		color: #fff;
 		font-size: 2.3rem;
 		font-weight: 700;
 	}
@@ -1028,12 +1058,12 @@ span.dot {
 			&:link {
 				padding: 1.6rem 0;
 				width: 100%;
-				color: var(--grey2);
+				color: #666;
 			}
 			&:visited {
 				padding: 1.6rem 0;
 				width: 100%;
-				color: var(--grey2);
+				color: #666;
 			}
 		}
 	}
@@ -1051,7 +1081,7 @@ span.dot {
 			left: 0;
 			width: 100%;
 			height: 110%;
-			background: var(--black) none no-repeat 0 0;
+			background: #222 none no-repeat 0 0;
 			opacity: 0.7;
 			z-index: 999;
 			transition: 0.8s;
@@ -1146,6 +1176,7 @@ span.dot {
 		.product__header {
 			height: 10rem;
 			img {
+				-o-object-fit: contain;
 				object-fit: contain;
 			}
 		}
