@@ -9,8 +9,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
 
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
-    <!-- Box Icons -->
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Box Icons -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
   <!-- Carousel -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
@@ -47,7 +47,7 @@
             <div class="menu__top">
               <span class="nav__category">Candles Galore!</span>
               <a href="#" class="close__toggle">
-            
+
               </a>
             </div>
             <ul class="nav__list">
@@ -57,7 +57,7 @@
               <li class="nav__item">
                 <a href="#category" class="nav__link scroll-link">Products</a>
               </li>
-             
+
               <li class="nav__item">
                 <a href="#contact" class="nav__link scroll-link">Contact</a>
               </li>
@@ -69,9 +69,9 @@
           </div>
 
 
-          
+
           <div class="nav__icons">
-            
+
 
             <a href="#" class="icon__item">
               <i class='bx bx-shopping-bag' id="cart-icon"></i>
@@ -93,7 +93,8 @@
                   <span class="">Welcome to Candles Galore!</span>
                   <h1 class="">Candles Galore MADE FOR YOU!</h1>
                   <p>Browse our selection of handcrafted candles and find the perfect candle for you.</p>
-                  <a href="#"><button class="hero__btn">SHOP NOW</button></a>
+                  <button id="add-to-cart-btn" class="btn">Add to cart</button>
+
                 </div>
                 <div class="hero__right">
                   <div class="hero__img-container">
@@ -108,7 +109,7 @@
                   <span class="">Welcome to Candles Galore!</span>
                   <h1 class="">Candles Galore MADE FOR YOU!</h1>
                   <p>Browse our selection of handcrafted candles and find the perfect candle for you.</p>
-                  <a href="#"><button class="hero__btn">SHOP NOW</button></a>
+                  <button id="add-to-cart-btn" class="btn">Add to cart</button>
                 </div>
                 <div class="hero__right">
                   <img class="banner_02" src="./bilder/candle-15915.png" alt="banner2" />
@@ -147,12 +148,13 @@
         <div class="collection__container" data-aos="fade-up" data-aos-duration="1200">
           <div class="collection__box">
             <div class="img__container">
-              <img class="collection_02" src="https://www.pngmart.com/files/10/Scented-Candles-PNG-Transparent-Image.png" alt="">
+              <img class="collection_02"
+                src="https://www.pngmart.com/files/10/Scented-Candles-PNG-Transparent-Image.png" alt="">
             </div>
             <div class="collection__content">
               <div class="collection__data">
                 <h1>Scented Candles</h1>
-                <a href="./products/index.html">SHOP NOW</a>
+                <button id="add-to-cart-btn" class="btn">Add to cart</button>
               </div>
             </div>
           </div>
@@ -163,20 +165,20 @@
             <div class="collection__content">
               <div class="collection__data">
                 <h1>Unscented Candles</h1>
-                <a href="./products/index.html">SHOP NOW</a>
+                <button id="add-to-cart-btn" class="btn">Add to cart</button>
               </div>
             </div>
           </div>
       </section>
 
-     
+
 
       <section class="category__section section" id="category">
         <div class="tab__list">
           <div class="title__container tabs">
             <div class="section__titles category__titles ">
               <div class="section__title filter-btn active" data-id="All Products">
-               
+
                 <h1 class="primary__title">Products</h1>
               </div>
             </div>
@@ -184,50 +186,59 @@
 
           <!--Shop-->
 
- <!-- Shop -->
- <section class="shop container">
+          <!-- Shop -->
+          <section class="shop container">
 
-  <!-- Content -->
-  <div class="shop-content">
-      <!-- Box 1 -->
-      <div class="product-box">
-          <img src="https://cdn.shopify.com/s/files/1/0029/4092/8098/products/SC2Lifestyle_800x.jpg?v=1664811535" alt="" class="product-img">
-          <h2 class="product-title">Apple Picking– 7.2 oz Soy Candle</h2>
-          <span class="price">$30</span>
-          <a href="./products/index.html"><i class='bx bx-shopping-bag add-cart'></i></a>
-      </div>
-      <!-- Box 2 -->
-     <div class="product-box">
-          <img src="https://cdn.shopify.com/s/files/1/0029/4092/8098/products/CitrusDazeLifestyle2_800x.jpg?v=1662490066" alt="" class="product-img">
-          <h2 class="product-title">Citrus Daze– 7.2 oz Soy Candle</h2>
-          <span class="price">$30</span>
-          <a href="./products/index.html"> <i class='bx bx-shopping-bag add-cart'></i></a>
-      </div>
-      <!-- Box 3 -->
-     <div class="product-box">
-          <img src="https://cdn.shopify.com/s/files/1/0029/4092/8098/products/SC4_Teakwood_Tobacco_2d79842c-d615-4a20-b8a2-58b11c2cf7d4_800x.jpg?v=1631899781" alt="" class="product-img">
-          <h2 class="product-title">Amber & Moss– 7.2 oz Soy Candle</h2>
-          <span class="price">$30</span>
-          <a href="./products/index.html"> <i class='bx bx-shopping-bag add-cart'></i></a>
-      </div>
-      <!-- Box 4 -->
-   <div class="product-box">
-          <img src="https://cdn.shopify.com/s/files/1/0029/4092/8098/products/GoldenHourSC800x800_800x.jpg?v=1631902054" alt="" class="product-img">
-          <h2 class="product-title">Golden Hour– 10 oz Soy Candle</h2>
-          <span class="price">$30.50</span>
-          <a href="./products/index.html"> <i class='bx bx-shopping-bag add-cart'></i></a>
-      </div>
-      <!-- Box 5 -->
-    <div class="product-box">
-          <img src="https://cdn.shopify.com/s/files/1/0029/4092/8098/products/MoonriseSC800x800_800x.jpg?v=1631902686" alt="" class="product-img">
-          <h2 class="product-title">Moonrise– 10 oz Soy Candle</h2>
-          <span class="price">$31.50</span>
-          <a href="./products/index.html"> <i class='bx bx-shopping-bag add-cart'></i></a>
-      </div>
-     
-  </div>
-</section>
-          
+            <!-- Content -->
+            <div class="shop-content">
+              <!-- Box 1 -->
+              <div class="product-box">
+                <img src="https://cdn.shopify.com/s/files/1/0029/4092/8098/products/SC2Lifestyle_800x.jpg?v=1664811535"
+                  alt="" class="product-img">
+                <h2 class="product-title">Apple Picking– 7.2 oz Soy Candle</h2>
+                <span class="price">$30</span>
+                <a href="./products/index.html"><i class='bx bx-shopping-bag add-cart'></i></a>
+              </div>
+              <!-- Box 2 -->
+              <div class="product-box">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0029/4092/8098/products/CitrusDazeLifestyle2_800x.jpg?v=1662490066"
+                  alt="" class="product-img">
+                <h2 class="product-title">Citrus Daze– 7.2 oz Soy Candle</h2>
+                <span class="price">$30</span>
+                <a href="./products/index.html"> <i class='bx bx-shopping-bag add-cart'></i></a>
+              </div>
+              <!-- Box 3 -->
+              <div class="product-box">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0029/4092/8098/products/SC4_Teakwood_Tobacco_2d79842c-d615-4a20-b8a2-58b11c2cf7d4_800x.jpg?v=1631899781"
+                  alt="" class="product-img">
+                <h2 class="product-title">Amber & Moss– 7.2 oz Soy Candle</h2>
+                <span class="price">$30</span>
+                <a href="./products/index.html"> <i class='bx bx-shopping-bag add-cart'></i></a>
+              </div>
+              <!-- Box 4 -->
+              <div class="product-box">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0029/4092/8098/products/GoldenHourSC800x800_800x.jpg?v=1631902054"
+                  alt="" class="product-img">
+                <h2 class="product-title">Golden Hour– 10 oz Soy Candle</h2>
+                <span class="price">$30.50</span>
+                <a href="./products/index.html"> <i class='bx bx-shopping-bag add-cart'></i></a>
+              </div>
+              <!-- Box 5 -->
+              <div class="product-box">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0029/4092/8098/products/MoonriseSC800x800_800x.jpg?v=1631902686"
+                  alt="" class="product-img">
+                <h2 class="product-title">Moonrise– 10 oz Soy Candle</h2>
+                <span class="price">$31.50</span>
+                <a href="./products/index.html"> <i class='bx bx-shopping-bag add-cart'></i></a>
+              </div>
+
+            </div>
+          </section>
+
         </div>
         <div class="category__container" data-aos="fade-up" data-aos-duration="1200">
           <div class="category__center"></div>
@@ -235,9 +246,9 @@
     </div>
     </section>
 
-  
 
-        
+
+
 
     <!-- Testimonial Section -->
     <section class="section testimonial" id="about">
@@ -248,7 +259,9 @@
               <li class="glide__slide">
                 <div class="testimonial__box">
                   <div class="client__image">
-                    <img src="https://scontent.fbma6-1.fna.fbcdn.net/v/t1.6435-9/173266055_1309462912772937_6381162634615511775_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=uOYVmI3zLcgAX8OEpBe&_nc_ht=scontent.fbma6-1.fna&oh=00_AfAe6Y63lqCcNdpIu6cuYpLgU8knZQ5l29Xw1WYDMAheKQ&oe=63C034B1" alt="profile">
+                    <img
+                      src="https://scontent.fbma6-1.fna.fbcdn.net/v/t1.6435-9/173266055_1309462912772937_6381162634615511775_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=uOYVmI3zLcgAX8OEpBe&_nc_ht=scontent.fbma6-1.fna&oh=00_AfAe6Y63lqCcNdpIu6cuYpLgU8knZQ5l29Xw1WYDMAheKQ&oe=63C034B1"
+                      alt="profile">
                   </div>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic nesciunt tempore
                     quibusdam consequatur eligendi unde officia ex quae.ipsum dolor sit amet consectetur adipisicing
@@ -261,12 +274,14 @@
                 </div>
               </li>
 
-        
+
 
               <li class="glide__slide">
                 <div class="testimonial__box">
                   <div class="client__image">
-                    <img src="https://scontent.fbma6-1.fna.fbcdn.net/v/t1.6435-9/173266055_1309462912772937_6381162634615511775_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=uOYVmI3zLcgAX8OEpBe&_nc_ht=scontent.fbma6-1.fna&oh=00_AfAe6Y63lqCcNdpIu6cuYpLgU8knZQ5l29Xw1WYDMAheKQ&oe=63C034B1" alt="">
+                    <img
+                      src="https://scontent.fbma6-1.fna.fbcdn.net/v/t1.6435-9/173266055_1309462912772937_6381162634615511775_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=uOYVmI3zLcgAX8OEpBe&_nc_ht=scontent.fbma6-1.fna&oh=00_AfAe6Y63lqCcNdpIu6cuYpLgU8knZQ5l29Xw1WYDMAheKQ&oe=63C034B1"
+                      alt="">
                   </div>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic nesciunt tempore
                     quibusdam consequatur
@@ -288,102 +303,102 @@
           <div class="glide__bullets" data-glide-el="controls[nav]">
             <button class="glide__bullet" data-glide-dir="=0"></button>
             <button class="glide__bullet" data-glide-dir="=1"></button>
-        
+
           </div>
         </div>
       </div>
     </section>
 
-  
+
 
     <!-- NewsLetter -->
-   
-  
 
 
-  <!-- End Main -->
 
-  <!-- Footer -->
-  <footer id="footer" class="section footer">
-    <div class="container">
-      <div class="footer__top">
-      
-        <div class="footer-top__box">
-          <h3>INFORMATION</h3>
-          <a href="#">About Us</a>
-          <a href="#">Contact Us</a>
-          <a href="#">Site Map</a>
+
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer id="footer" class="section footer">
+      <div class="container">
+        <div class="footer__top">
+
+          <div class="footer-top__box">
+            <h3>INFORMATION</h3>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Site Map</a>
+          </div>
+
+          <div class="footer-top__box">
+            <h3>CONTACT US</h3>
+            <div>
+              <span>
+                <svg>
+                  <use xlink:href="./images/sprite.svg#icon-location"></use>
+                </svg>
+              </span>
+              Nekvägen 115 72473 Spånga
+            </div>
+            <div>
+              <span>
+                <svg>
+                  <use xlink:href="./images/sprite.svg#icon-envelop"></use>
+                </svg>
+              </span>
+              company@gmail.com
+            </div>
+            <div>
+              <span>
+                <svg>
+                  <use xlink:href="./images/sprite.svg#icon-phone"></use>
+                </svg>
+              </span>
+              0790165648
+            </div>
+            <div>
+              <span>
+                <svg>
+                  <use xlink:href="./images/sprite.svg#icon-paperplane"></use>
+                </svg>
+              </span>
+              Dream City, Dubai
+            </div>
+          </div>
         </div>
-       
-        <div class="footer-top__box">
-          <h3>CONTACT US</h3>
-          <div>
-            <span>
-              <svg>
-                <use xlink:href="./images/sprite.svg#icon-location"></use>
-              </svg>
-            </span>
-            Nekvägen 115 72473 Spånga
-          </div>
-          <div>
-            <span>
-              <svg>
-                <use xlink:href="./images/sprite.svg#icon-envelop"></use>
-              </svg>
-            </span>
-            company@gmail.com
-          </div>
-          <div>
-            <span>
-              <svg>
-                <use xlink:href="./images/sprite.svg#icon-phone"></use>
-              </svg>
-            </span>
-            0790165648
-          </div>
-          <div>
-            <span>
-              <svg>
-                <use xlink:href="./images/sprite.svg#icon-paperplane"></use>
-              </svg>
-            </span>
-            Dream City, Dubai
-          </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer-bottom__box">
+
+        </div>
+        <div class="footer-bottom__box">
+
         </div>
       </div>
-    </div>
-    <div class="footer__bottom">
-      <div class="footer-bottom__box">
-
       </div>
-      <div class="footer-bottom__box">
-
-      </div>
-    </div>
-    </div>
-  </footer>
-  <!-- End Footer -->
-
-  
-  
-  <!-- Go To -->
-
-  <a href="#header" class="goto-top scroll-link">
-    <svg>
-      <use xlink:href="./images/sprite.svg#icon-arrow-up"></use>
-    </svg>
-  </a>
+    </footer>
+    <!-- End Footer -->
 
 
-  <!-- Glide Carousel Script -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
-  <!-- Animate On Scroll -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <!-- Custom JavaScript -->
-  <script src="./js/products.js"></script>
-  <script src="./js/index.js"></script>
-  <script src="./js/slider.js"></script>
+    <!-- Go To -->
+
+    <a href="#header" class="goto-top scroll-link">
+      <svg>
+        <use xlink:href="./images/sprite.svg#icon-arrow-up"></use>
+      </svg>
+    </a>
+
+
+    <!-- Glide Carousel Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <!-- Animate On Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="./js/products.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/slider.js"></script>
 
 </body>
 
