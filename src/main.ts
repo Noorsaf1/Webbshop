@@ -1,7 +1,13 @@
 // import { Cart } from "./class.js";
 
 class Cart {
-    constructor(id, name, price, quantity, image) {
+    id: number
+    name: string
+    price: number
+    quantity: number
+    image: string
+
+    constructor(id: number, name: string, price: number, quantity: number, image: string) {
         this.id = id;
         this.name = name;
         this.price = price;
@@ -11,9 +17,16 @@ class Cart {
 
 }
 
-let cart = [];
+let cart: Cart[] = [];
 
-cart = JSON.parse(localStorage.getItem('cart')).map((cartItem) => {
+
+let cartInStorage: string | null = localStorage.getItem('cart')
+
+if (cartInStorage === null) {
+    cartInStorage = ''
+}
+
+cart = JSON.parse(cartInStorage).map((cartItem: Cart) => {
     return new Cart(
         cartItem.id,
         cartItem.name,
@@ -31,7 +44,7 @@ function loadCart() {
 
         let itemHTML = `
         <div class="cart-item" id="cart-item${item.id}">
-          <img src="${item.image}" alt="${item.name}" class="cart-item__image">
+          <img src="../bilder/${item.image}" alt="${item.name}" class="cart-item__image">
           <div class="cart-item__details">
             <span id="item-name${item.id}" class="cart-item__name">${item.name}</span>
             <span class="cart-item__price">$${item.price.toFixed(2)}</span>
@@ -39,7 +52,7 @@ function loadCart() {
             <label for="quantity">Quantity:</label>
             <input type="number" id="quantity${item.id}" name="quantity" value="${item.quantity}" />
             <button class="cart-item__update-btn" onclick="updateQuantity(event,${item.id})" > Update </button>
-            <button class="cart-item__remove-btn" onclick="removeItem(${item.id})"> Remove </button>
+            <button class="cart-item__remove-btn" onclick="removeItem(event,${item.id})"> Remove </button>
         </div>
       `;
 
@@ -51,7 +64,7 @@ function loadCart() {
 }
 
 
-function updateQuantity(event, itemId) {
+function updateQuantity(event: any, itemId: number) {
     event.preventDefault();
     // Update the item quantity and total price
     cart.find(x => x.id == itemId).quantity = parseInt(document.querySelector('#quantity' + itemId).value);
@@ -63,7 +76,8 @@ function updateStorage() {
     localStorage.setItem('cart', JSON.stringify(cart));
 }
 
-function removeItem(itemId) {
+function removeItem(event: any, itemId: number) {
+    event.preventDefault();
     // Remove the item from the cart
     let cartItem = document.querySelector('#cart-item' + itemId);
     cartItem.remove();
@@ -74,10 +88,18 @@ function removeItem(itemId) {
 }
 
 
-function addToCart(id, name, price, image) {
+function addToCart(id: number, name: string, price: number, image: string) {
 
-    let newItem = new Cart(id, name, price, 1, image);
-    cart.push(newItem);
+    let isInCart = cart.find(x => x.id == id);
+
+    if (isInCart == undefined) {
+        let newItem = new Cart(id, name, price, 1, image);
+        cart.push(newItem);
+    }
+    else {
+        isInCart.quantity += 1;
+    }
+
     updateStorage();
 }
 

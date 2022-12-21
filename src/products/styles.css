@@ -331,7 +331,7 @@ Navigation Media Query
 }
 
 
-.prduc{
+.prduc {
   width: 100%;
   min-height: 70px;
 
@@ -341,26 +341,27 @@ Navigation Media Query
 }
 
 .prduc h1 {
-position: relative;
-top: 15px;
+  position: relative;
+  top: 15px;
 }
 
 @media only screen and (max-width: 700px) {
-  .prduc h1{
-      font-size: 25px;
+  .prduc h1 {
+    font-size: 25px;
   }
 }
 
 
 
-.text{
- 
+.text {
+
   text-align: center;
   font-size: 35px;
   font-family: Roboto;
 
-  
+
 }
+
 .text p {
   position: relative;
   top: 25px;
@@ -371,11 +372,11 @@ top: 15px;
 }
 
 @media only screen and (max-width: 700px) {
-  .text p{
-      width: 380px;
-      height: 38px;
+  .text p {
+    width: 380px;
+    height: 38px;
     font-size: 18px;
-      text-align: center;
+    text-align: center;
   }
 }
 
@@ -384,9 +385,9 @@ top: 15px;
 
 
 
-.avo{
-position: relative;
-top: 100px;
+.avo {
+  position: relative;
+  top: 100px;
 
 
   background: #F2E7E7;
@@ -406,11 +407,11 @@ top: 100px;
 
   position: relative;
   top: 200px;
-  
+
   margin-left: 800px;
 }
 
-.textp p{
+.textp p {
   text-align: center;
 
   font-family: Roboto;
@@ -427,13 +428,14 @@ top: 100px;
 
   line-height: 50px;
 }
+
 .textimg img {
 
   width: 572px;
   height: 600px;
 
   position: relative;
- bottom: 100px;
+  bottom: 100px;
 
 }
 
@@ -449,7 +451,7 @@ top: 100px;
 
 
 
-.buuutt{
+.add-to-cart-button {
 
   position: relative;
   left: 1000px;
@@ -458,7 +460,8 @@ top: 100px;
   width: 200px;
   height: 60px;
 
-  background-color: #000000; /* Green */
+  background-color: #000000;
+  /* Green */
   border-radius: 50px;
   color: white;
   padding: 15px 32px;
@@ -471,90 +474,91 @@ top: 100px;
 }
 
 @media only screen and (max-width: 998px) {
-  
-  .avo{
-      width: 100%;
-      height: 251px;
-    }
 
-    .textp h4 {
-     
-      position: relative;
-      right: 600px;
-      top: 60px;
+  .avo {
+    width: 100%;
+    height: 251px;
+  }
 
-      width: 205px;
-      height: 29px;
+  .textp h4 {
 
-      font-size: 12px;
-   
-    }
+    position: relative;
+    right: 600px;
+    top: 60px;
 
-    .textp p{
-     
-      position: relative;
-      right: 600px;
-      top: 70px;
+    width: 205px;
+    height: 29px;
 
+    font-size: 12px;
 
-      width: 200px;
-      height: 77px;
+  }
 
-      font-size: 10px;
-      font-style: bold;
-      line-height: 16px;
+  .textp p {
 
-      
-    }
+    position: relative;
+    right: 600px;
+    top: 70px;
 
 
+    width: 200px;
+    height: 77px;
+
+    font-size: 10px;
+    font-style: bold;
+    line-height: 16px;
+
+
+  }
 
 
 
-    .textimg img {
-
-      position: relative;
-      bottom: 90px;
-
-      width: 170px;
-      height: 200px;
-    
-     
-    
-    }
-
-    .buuutt{
-
-     width: 90px;
-     height: 60px;
 
 
-     position: absolute;
-     left: 260px;
-     top: 175px;
+  .textimg img {
 
-     background-color: #000000; /* Green */
-     border-radius: 50px;
-     color: white;
-     padding: 13px 13px ;
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
-     font-size: 14px;
-     letter-spacing: 1%;
-     cursor: pointer;
-    
-    }
+    position: relative;
+    bottom: 90px;
 
-    .textimg1 img {
+    width: 170px;
+    height: 200px;
 
-      width: 176px;
-      height: 174px;
-    
-      position: relative;
-      bottom: 60px;
-      left: 20px;
-    }
+
+
+  }
+
+  .add-to-cart-button {
+
+    width: 90px;
+    height: 60px;
+
+
+    position: absolute;
+    left: 260px;
+    top: 175px;
+
+    background-color: #000000;
+    /* Green */
+    border-radius: 50px;
+    color: white;
+    padding: 13px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1%;
+    cursor: pointer;
+
+  }
+
+  .textimg1 img {
+
+    width: 176px;
+    height: 174px;
+
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+  }
 
 
 
@@ -574,7 +578,7 @@ top: 100px;
 
 }
 
-#footer{
+#footer {
   position: relative;
   top: 90px;
 }
@@ -631,4 +635,3 @@ top: 100px;
     row-gap: 2rem;
   }
 }
-
