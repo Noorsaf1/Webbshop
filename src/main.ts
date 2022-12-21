@@ -1,4 +1,6 @@
-// import { Cart } from "./class.js";
+//import { Cart } from "./class.js";
+///import bilder from './bilder/*';
+
 
 class Cart {
     id: number
@@ -16,6 +18,10 @@ class Cart {
     }
 
 }
+
+
+
+
 
 let cart: Cart[] = [];
 
@@ -37,8 +43,12 @@ cart = JSON.parse(cartInStorage).map((cartItem: Cart) => {
 
 function loadCart() {
 
+    document.getElementById('cart-icon')?.addEventListener('click', function () {
+        toggleCartList()
+    });
 
     let cartContainer = document.querySelector('.cart-container');
+    cartContainer.innerHTML = '';
 
     for (let item of cart) {
 
@@ -101,5 +111,10 @@ function addToCart(id: number, name: string, price: number, image: string) {
     }
 
     updateStorage();
+    loadCart();
 }
 
+
+function toggleCartList() {
+    document.getElementById('cart-list')?.classList.toggle("cart-list-view");
+}

@@ -24,7 +24,7 @@
   <title>Candles</title>
 </head>
 
-<body>
+<body onload="loadCart()">
 
   <!-- Header -->
   <header id="header" class="header">
@@ -73,10 +73,17 @@
           <div class="nav__icons">
 
 
-            <a href="./cart/index.html" class="icon__item">
+            <label id="cart-icon" href="./cart/index.html" class="icon__item">
               <i class='bx bx-shopping-bag' id="cart-icon"></i>
               <span id="cart__total">0</span>
-            </a>
+            </label>
+            <div id="cart-list" class="cart-list" style="width: 200px; height:400px; background:red;">
+              <div class="cart-container">
+
+              </div>
+              <a href="./cart/index.html"> View Cart</a>
+            </div>
+
           </div>
         </nav>
       </div>
@@ -93,7 +100,7 @@
                   <span class="">Welcome to Candles Galore!</span>
                   <h1 class="">Candles Galore MADE FOR YOU!</h1>
                   <p>Browse our selection of handcrafted candles and find the perfect candle for you.</p>
-                  <button id="add-to-cart-btn" class="btn">Add to cart</button>
+
 
                 </div>
                 <div class="hero__right">
@@ -109,7 +116,7 @@
                   <span class="">Welcome to Candles Galore!</span>
                   <h1 class="">Candles Galore MADE FOR YOU!</h1>
                   <p>Browse our selection of handcrafted candles and find the perfect candle for you.</p>
-                  <button id="add-to-cart-btn" class="btn">Add to cart</button>
+
                 </div>
                 <div class="hero__right">
                   <img class="banner_02" src="./bilder/candel1.png" alt="banner2" />
@@ -193,47 +200,43 @@
             <div class="shop-content">
               <!-- Box 1 -->
               <div class="product-box">
-                <img src="https://cdn.shopify.com/s/files/1/0029/4092/8098/products/SC2Lifestyle_800x.jpg?v=1664811535"
-                  alt="" class="product-img">
-                <h2 class="product-title">Apple Picking– 7.2 oz Soy Candle</h2>
-                <span class="price">$30</span>
-                <a href="./products/index.html"><i class='bx bx-shopping-bag add-cart'></i></a>
+                <a href="./products/index.html#candel1">
+                  <img src="./bilder/candel1.png" alt="" class="product-img">
+                  <h2 class="product-title">Apple Picking– 7.2 oz Soy Candle</h2>
+                  <span class="price">$30</span>
+                </a>
               </div>
               <!-- Box 2 -->
               <div class="product-box">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0029/4092/8098/products/CitrusDazeLifestyle2_800x.jpg?v=1662490066"
-                  alt="" class="product-img">
-                <h2 class="product-title">Citrus Daze– 7.2 oz Soy Candle</h2>
-                <span class="price">$30</span>
-                <a href="./products/index.html"> <i class='bx bx-shopping-bag add-cart'></i></a>
+                <a href="./products/index.html#candel2">
+                  <img src="./bilder/candel2.png" alt="" class="product-img">
+                  <h2 class="product-title">Citrus Daze– 7.2 oz Soy Candle</h2>
+                  <span class="price">$30</span>
+                </a>
               </div>
               <!-- Box 3 -->
               <div class="product-box">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0029/4092/8098/products/SC4_Teakwood_Tobacco_2d79842c-d615-4a20-b8a2-58b11c2cf7d4_800x.jpg?v=1631899781"
-                  alt="" class="product-img">
-                <h2 class="product-title">Amber & Moss– 7.2 oz Soy Candle</h2>
-                <span class="price">$30</span>
-                <a href="./products/index.html"> <i class='bx bx-shopping-bag add-cart'></i></a>
+                <a href="./products/index.html#candel3">
+                  <img src="./bilder/candel3.png" alt="" class="product-img">
+                  <h2 class="product-title">Amber & Moss– 7.2 oz Soy Candle</h2>
+                  <span class="price">$30</span>
+                  <a href="./products/index.html#candel4"> </a>
               </div>
               <!-- Box 4 -->
               <div class="product-box">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0029/4092/8098/products/GoldenHourSC800x800_800x.jpg?v=1631902054"
-                  alt="" class="product-img">
-                <h2 class="product-title">Golden Hour– 10 oz Soy Candle</h2>
-                <span class="price">$30.50</span>
-                <a href="./products/index.html"> <i class='bx bx-shopping-bag add-cart'></i></a>
+                <a href="./products/index.html">
+                  <img src="./bilder/candel4.png" alt="" class="product-img">
+                  <h2 class="product-title">Golden Hour– 10 oz Soy Candle</h2>
+                  <span class="price">$30.50</span>
+                  <a href="./products/index.html#candel5"> </a>
               </div>
               <!-- Box 5 -->
               <div class="product-box">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0029/4092/8098/products/MoonriseSC800x800_800x.jpg?v=1631902686"
-                  alt="" class="product-img">
-                <h2 class="product-title">Moonrise– 10 oz Soy Candle</h2>
-                <span class="price">$31.50</span>
-                <a href="./products/index.html"> <i class='bx bx-shopping-bag add-cart'></i></a>
+                <a href="./products/index.html#candel6">
+                  <img src="./bilder/candel5.png" alt="" class="product-img">
+                  <h2 class="product-title">Moonrise– 10 oz Soy Candle</h2>
+                  <span class="price">$31.50</span>
+                  <a href="./products/index.html"> </a>
               </div>
 
             </div>
@@ -392,6 +395,9 @@
 
     <!-- Glide Carousel Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <script>
+      new Glide('.glide', { autoplay: 3000 }).mount();
+    </script>
     <!-- Animate On Scroll -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 

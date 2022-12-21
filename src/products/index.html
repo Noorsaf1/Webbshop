@@ -17,16 +17,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
 ">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+  <link rel="stylesheet" href="../styles.css">
   <!-- Custom StyleSheet -->
-  <link rel="stylesheet" href="../products/styles.css">
+  <link rel="stylesheet" href="./styles.css">
 
   <script src="../main.ts"></script>
 
   <title>Products</title>
 </head>
 
-<body>
+<body onload="loadCart()">
 
   <!-- Header -->
   <header id="header" class="header">
@@ -66,12 +66,17 @@
             </ul>
           </div>
 
-          <div class="nav__icons">
-            <a href="../cart/index.html" class="icon__item">
-              <i class='bx bx-shopping-bag' id="cart-icon"></i>
-              <span id="cart__total">0</span>
-            </a>
+          <label id="cart-icon" href="./cart/index.html" class="icon__item">
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <span id="cart__total">0</span>
+          </label>
+          <div id="cart-list" class="cart-list" style="width: 200px; height:400px; background:red;">
+            <div class="cart-container">
+
+            </div>
+            <a href="../cart/index.html"> View Cart</a>
           </div>
+
         </nav>
       </div>
     </div>
@@ -91,7 +96,7 @@
     </div>
 
     <section class="imgmm" id="category">
-      <div class="avo">
+      <div class="avo" id="candel1">
         <div class="textp">
           <h4>Scented Candle Avoca Rosie Posie $30</h4>
           <p>
@@ -109,7 +114,7 @@
 
       <br>
       <br>
-      <div class="avo">
+      <div class="avo" id="candel2">
         <div class="textp">
           <h4>Scented Candle Mahogany Teakwood $30</h4>
           <p>
@@ -124,7 +129,7 @@
       </div>
       <br>
       <br>
-      <div class="avo">
+      <div class="avo" id="candel3">
         <div class="textp">
           <h4>Apple Picking Soy Candel $30</h4>
           <p>
@@ -139,7 +144,7 @@
       </div>
       <br>
       <br>
-      <div class="avo">
+      <div class="avo" id="candel4">
         <div class="textp">
           <h4>Citruz Daze Soy Candel $30</h4>
           <p>
@@ -154,7 +159,7 @@
       </div>
       <br>
       <br>
-      <div class="avo">
+      <div class="avo" id="candel5">
         <div class="textp">
           <h4>Takewood Toback Soy CAndel $30</h4>
           <p>
@@ -169,7 +174,7 @@
       </div>
       <br>
       <br>
-      <div class="avo">
+      <div class="avo" id="candel6">
         <div class="textp">
           <h4>Golden Hour Soy Candel $30</h4>
           <p>
@@ -184,7 +189,7 @@
       </div>
       <br>
       <br>
-      <div class="avo">
+      <div class="avo" id="candel7">
         <div class="textp">
           <h4>Rising Moon Soy Candel $30</h4>
           <p>

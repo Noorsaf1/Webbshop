@@ -1638,3 +1638,30 @@ Footer
     row-gap: 2rem;
   }
 }
+
+
+/*
+======================
+Cart List
+======================
+*/
+.cart-list {
+  position: absolute;
+  right: -17px;
+  top: 38px;
+  z-index: 13;
+  display: none;
+}
+
+.cart-list.cart-list-view {
+  display: block;
+}
+
+
+
+
+
+.glide__arrows {
+  position: relative;
+  top: -67px;
+}
