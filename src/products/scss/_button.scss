@@ -1,0 +1,76 @@
+.add-to-cart-button {
+	position: relative;
+	left: 1000px;
+	bottom: 250px;
+	width: 200px;
+	height: 60px;
+	background-color: #000000;
+	border-radius: 50px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+@media only screen and (max-width: 998px) {
+	.avo {
+		width: 100%;
+		height: 251px;
+	}
+	.textp {
+		h4 {
+			position: relative;
+			right: 600px;
+			top: 60px;
+			width: 170px;
+			height: 29px;
+			font-size: 12px;
+		}
+		p {
+			position: relative;
+			right: 600px;
+			top: 70px;
+			width: 170px;
+			height: 77px;
+			font-size: 10px;
+			font-style: bold;
+			line-height: 16px;
+		}
+	}
+	.textimg {
+		img {
+			position: relative;
+			bottom: 90px;
+			width: 170px;
+			height: 200px;
+		}
+	}
+	.add-to-cart-button {
+		width: 90px;
+		height: 60px;
+		position: absolute;
+		left: 260px;
+		top: 175px;
+		background-color: #000000;
+		border-radius: 50px;
+		color: white;
+		padding: 13px 13px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 14px;
+		letter-spacing: 1%;
+		cursor: pointer;
+	}
+	.textimg1 {
+		img {
+			width: 176px;
+			height: 174px;
+			position: relative;
+			bottom: 60px;
+			left: 20px;
+		}
+	}
+}

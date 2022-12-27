@@ -1,0 +1,16 @@
+/*map*/
+.iframe {
+	margin-left: 1050px;
+	position: absolute;
+	top: 1620px;
+}
+@media only screen and (max-width: 998px) {
+	.iframe {
+		margin-left: 1050px;
+		position: static;
+		margin-left: 20px;
+		margin-top: 20px;
+		width: 300px;
+		height: 300px;
+	}
+}

@@ -1,0 +1,85 @@
+
+
+
+.inputt {
+	width: 100%;
+	background: #f2e7e7;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.line {
+	position: absolute;
+	left: 350px;
+	top: 90px;
+	color: #666;
+}
+.line1 {
+	width: 900px;
+	height: 44px;
+	border: none;
+}
+.bott {
+	background: #000;
+	color: white;
+	border-radius: 40px;
+	width: 300px;
+	height: 50px;
+	position: relative;
+	left: 300px;
+	top: -50px;
+}
+@media only screen and (max-width: 568px) {
+	.inputt {
+		width: 100%;
+	}
+	.line {
+		position: relative;
+		left: 0;
+		margin-left: 40px;
+	}
+	.line1 {
+		width: 300px;
+	}
+	.bott {
+		position: relative;
+		left: 50px;
+		width: 180px;
+		height: 27.81px;
+	}
+}
+
+
+/*pyment*/
+.line2 {
+	width: 900px;
+	height: 44px;
+	border: none;
+}
+.line3 {
+	width: 400px;
+	height: 44px;
+	border: none;
+}
+.line4 {
+	width: 400px;
+	height: 44px;
+	margin-left: 500px;
+	position: relative;
+	bottom: 95px;
+	border: none;
+}
+@media only screen and (max-width: 568px) {
+	.line2 {
+		width: 300px;
+	}
+	.line3 {
+		width: 150px;
+		margin: 0;
+	}
+	.line4 {
+		margin-left: 170px;
+		width: 150px;
+	}
+}

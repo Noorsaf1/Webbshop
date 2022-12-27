@@ -1,0 +1,24 @@
+/* Shop Content */
+
+
+
+
+
+.shop-content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+	gap: 1.5rem;
+}
+.product-box {
+	&:hover {
+		padding: 10px;
+		border: 1px solid var(--text-color);
+		transition: 0.4s;
+	}
+}
+.product-title {
+	font-size: 1.1rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 0.5rem;
+}
