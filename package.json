@@ -2,7 +2,7 @@
   "name": "home-paage",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "default": "index.html",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
@@ -12,5 +12,10 @@
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "sass": "^1.56.2"
+  },
+  "dependencies": {
+    "@parcel/transformer-typescript-tsc": "^2.8.2",
+    "@parcel/validator-typescript": "^2.8.2",
+    "parcel": "^2.8.2"
   }
 }
