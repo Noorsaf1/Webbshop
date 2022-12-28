@@ -1,8 +1,8 @@
-26932
+26854
 85C:\skola\workshop\webbshop\node_modules\parcel\node_modules\supports-color\browser.js133166402883707611 0
 112C:\skola\workshop\webbshop\node_modules\uncss\node_modules\postcss-selector-parser\dist\__tests__\sourceIndex.js133156662355919780 0
 54C:\skola\workshop\webbshop\node_modules\sax\lib\sax.js133156662335249904 0
-49C:\skola\workshop\webbshop\src\bilder\candel4.png133160479559258054 0
+49C:\skola\workshop\webbshop\src\bilder\candel4.png133167197185163857 0
 55C:\skola\workshop\webbshop\node_modules\chalk\readme.md133156661854322923 0
 57C:\skola\workshop\webbshop\node_modules\unicode-trie\test133156662357460626 1
 65C:\skola\workshop\webbshop\node_modules\lodash\_basePropertyOf.js133156661993009446 0
@@ -25,7 +25,7 @@
 76C:\skola\workshop\webbshop\node_modules\es-abstract\2021\ClearKeptObjects.js133156661936897763 0
 61C:\skola\workshop\webbshop\node_modules\svgo\plugins\_path.js133156662349365196 0
 88C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\api133166402901081948 1
-30C:\skola\workshop\webbshop\src133166550569237564 1
+30C:\skola\workshop\webbshop\src133166609889473926 1
 48C:\skola\workshop\webbshop\src\scss\main.css.map133166327922897546 0
 71C:\skola\workshop\webbshop\node_modules\es-abstract\2017\UTF16Decode.js133156661923828775 0
 86C:\skola\workshop\webbshop\node_modules\parcel\node_modules\@parcel\fs\src\MemoryFS.js133166402896689656 0
@@ -38,12 +38,8 @@
 70C:\skola\workshop\webbshop\node_modules\core-js\modules\_object-gpo.js133156661881871965 0
 93C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\htmlnano\docs133166402917952183 1
 55C:\skola\workshop\webbshop\node_modules\expand-brackets133156661949055645 1
-54C:\skola\workshop\webbshop\node_modules\node-gyp-build133166401047081707 1
-37C:\skola\workshop\webbshop\src\nav.js133166584955322763 0
-73C:\skola\workshop\webbshop\node_modules\es-abstract\helpers\isPrefixOf.js133156661945715547 0
-61C:\skola\workshop\webbshop\node_modules\static-extend\LICENSE133156662344589049 0
 108C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\domutils\lib\manipulation.js133166402894233182 0
-31C:\skola\workshop\webbshop\dist133166467712934706 1
+31C:\skola\workshop\webbshop\dist133167199139749158 1
 65C:\skola\workshop\webbshop\node_modules\static-module\.travis.yml133156662344994566 0
 90C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\intersectionobserver.js133156661841215152 0
 48C:\skola\workshop\webbshop\node_modules\escalade133156661946934564 1
@@ -135,7 +131,7 @@
 40C:\skola\workshop\webbshop\tsconfig.json133166399627678992 0
 92C:\skola\workshop\webbshop\node_modules\@parcel\packager-svg\node_modules\domelementtype\lib133166402898980882 1
 58C:\skola\workshop\webbshop\node_modules\is-color-stop\util133156661971975654 1
-37C:\skola\workshop\webbshop\src\bilder133160486870623344 1
+37C:\skola\workshop\webbshop\src\bilder133167197960387222 1
 50C:\skola\workshop\webbshop\node_modules\mkdirp\bin133156662278620372 1
 75C:\skola\workshop\webbshop\node_modules\core-js\library\modules\_library.js133156661872937659 0
 58C:\skola\workshop\webbshop\node_modules\jsesc\package.json133156661989837466 0
@@ -197,9 +193,9 @@
 76C:\skola\workshop\webbshop\node_modules\supports-preserve-symlinks-flag\test133156662349005227 1
 62C:\skola\workshop\webbshop\node_modules\cssnano-util-get-match133156661896795966 1
 71C:\skola\workshop\webbshop\node_modules\update-browserslist-db\index.js133156662358246137 0
-41C:\skola\workshop\webbshop\src\index.html133166596109798604 0
+41C:\skola\workshop\webbshop\src\index.html133167196454601180 0
 82C:\skola\workshop\webbshop\node_modules\babel-plugin-polyfill-corejs3\package.json133156661820118311 0
-38C:\skola\workshop\webbshop\src\main.ts133166591500548995 0
+38C:\skola\workshop\webbshop\src\main.ts133166611393335407 0
 74C:\skola\workshop\webbshop\node_modules\css-tree\lib\common\TokenStream.js133156661892174436 0
 90C:\skola\workshop\webbshop\node_modules\es-abstract\2022\IsCompatiblePropertyDescriptor.js133156661940465000 0
 65C:\skola\workshop\webbshop\node_modules\magic-string\CHANGELOG.md133156662275553816 0
@@ -350,7 +346,7 @@
 65C:\skola\workshop\webbshop\node_modules\sass\sass.default.dart.js133156662332030204 0
 63C:\skola\workshop\webbshop\node_modules\yaml\types\timestamp.js133166402911648591 0
 50C:\skola\workshop\webbshop\node_modules\picocolors133156662295174871 1
-49C:\skola\workshop\webbshop\src\bilder\candel7.png133160479777383972 0
+49C:\skola\workshop\webbshop\src\bilder\candel7.png133167197452108431 0
 66C:\skola\workshop\webbshop\node_modules\yaml\browser\dist\types.js133166402911778604 0
 90C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\internationalization.js133156661841185150 0
 77C:\skola\workshop\webbshop\node_modules\core-js\modules\es6.array.for-each.js133156661883132520 0
@@ -363,7 +359,7 @@
 50C:\skola\workshop\webbshop\node_modules\optionator133156662286802969 1
 46C:\skola\workshop\webbshop\src\scss\_shop.scss133166327922887542 0
 61C:\skola\workshop\webbshop\node_modules\boolbase\package.json133156661828237788 0
-50C:\skola\workshop\webbshop\src\products\index.html133166596835994412 0
+50C:\skola\workshop\webbshop\src\products\index.html133166612296422858 0
 86C:\skola\workshop\webbshop\node_modules\node-gyp-build-optional-packages\build-test.js133166401044692507 0
 36C:\skola\workshop\webbshop\.cache\43133166398078191899 1
 45C:\skola\workshop\webbshop\node_modules\jsdom133156661989707269 1
@@ -417,7 +413,7 @@
 70C:\skola\workshop\webbshop\node_modules\is-weakref\.github\FUNDING.yml133156661975152270 0
 130C:\skola\workshop\webbshop\node_modules\@parcel\reporter-dev-server\node_modules\@parcel\utils\test\input\sourcemap\source-root.js133166402917442155 0
 71C:\skola\workshop\webbshop\node_modules\@parcel\watcher\test\options.js133156661809035333 0
-44C:\skola\workshop\webbshop\src\products\scss133166449324355425 1
+44C:\skola\workshop\webbshop\src\products\scss133166598453655721 1
 63C:\skola\workshop\webbshop\node_modules\lodash\_baseIsRegExp.js133156661992713874 0
 67C:\skola\workshop\webbshop\node_modules\lodash\_baseIntersection.js133156661992543864 0
 71C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\regions\BR.js133156661848712149 0
@@ -479,7 +475,23 @@
 88C:\skola\workshop\webbshop\node_modules\unset-value\node_modules\has-values\package.json133156662358036183 0
 51C:\skola\workshop\webbshop\node_modules\ret\LICENSE133156662329658589 0
 98C:\skola\workshop\webbshop\node_modules\@parcel\core\node_modules\@parcel\utils\src\relativeUrl.js133166401058225881 0
-58C:\skola\workshop\webbshop\src\products\scss\products.scss133166327922807544 0
+58C:\skola\workshop\webbshop\src\products\scss\products.scss133166598792108745 0
+48C:\skola\workshop\webbshop\node_modules\levn\lib133156661990903058 1
+63C:\skola\workshop\webbshop\node_modules\uuid\lib\md5-browser.js133156662362830094 0
+137C:\skola\workshop\webbshop\node_modules\@parcel\transformer-posthtml\node_modules\dom-serializer\node_modules\entities\lib\index.d.ts.map133166402901377576 0
+93C:\skola\workshop\webbshop\node_modules\jsdom\lib\jsdom\living\nodes\HTMLTitleElement-impl.js133156661984972557 0
+97C:\skola\workshop\webbshop\node_modules\jsdom\lib\jsdom\living\nodes\HTMLParagraphElement-impl.js133156661984677148 0
+77C:\skola\workshop\webbshop\node_modules\postcss-minify-gradients\package.json133156662298421231 0
+62C:\skola\workshop\webbshop\node_modules\browser-process-hrtime133156661829563280 1
+60C:\skola\workshop\webbshop\src\products\scss\_cartlista.scss133166327922837543 0
+73C:\skola\workshop\webbshop\node_modules\har-schema\lib\beforeRequest.json133156661957129388 0
+89C:\skola\workshop\webbshop\node_modules\csso\node_modules\css-tree\lib\convertor\index.js133156661898132454 0
+58C:\skola\workshop\webbshop\node_modules\mime-db\HISTORY.md133156662277394793 0
+59C:\skola\workshop\webbshop\node_modules\hash.js\.travis.yml133156661959090255 0
+60C:\skola\workshop\webbshop\node_modules\extglob\lib\utils.js133156661949395701 0
+69C:\skola\workshop\webbshop\node_modules\resolve\test\shadowed_core.js133156662329508527 0
+57C:\skola\workshop\webbshop\node_modules\ee-first\index.js133156661914011306 0
+106C:\skola\workshop\webbshop\node_modules\regenerate-unicode-properties\Binary_Property\Sentence_Terminal.js133156662314270397 0
 63C:\skola\workshop\webbshop\node_modules\es-abstract\2018\Day.js133156661924399844 0
 99C:\skola\workshop\webbshop\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\@scope133166402893157430 1
 60C:\skola\workshop\webbshop\node_modules\term-size\index.d.ts133166402898580870 0
@@ -627,7 +639,7 @@
 80C:\skola\workshop\webbshop\node_modules\typescript\lib\lib.es2015.generator.d.ts133166401068234744 0
 61C:\skola\workshop\webbshop\node_modules\wcwidth\test\index.js133156662364131050 0
 61C:\skola\workshop\webbshop\node_modules\mime-types\HISTORY.md133156662277494780 0
-46C:\skola\workshop\webbshop\src\cart\index.html133166586078666196 0
+46C:\skola\workshop\webbshop\src\cart\index.html133166616828175620 0
 83C:\skola\workshop\webbshop\node_modules\@babel\core\lib\gensync-utils\functional.js133156661777313867 0
 63C:\skola\workshop\webbshop\node_modules\des.js\test\des-test.js133156661911234757 0
 87C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\custom-elementsv1.js133156661839116070 0
@@ -722,7 +734,7 @@
 73C:\skola\workshop\webbshop\node_modules\elliptic\lib\elliptic\ec\index.js133156661914431317 0
 69C:\skola\workshop\webbshop\node_modules\@iarna\toml\lib\format-num.js133156661806533129 0
 90C:\skola\workshop\webbshop\node_modules\@parcel\runtime-js\src\helpers\node\wasm-loader.js133166402911143263 0
-49C:\skola\workshop\webbshop\src\bilder\candel3.png133160479466889553 0
+49C:\skola\workshop\webbshop\src\bilder\candel3.png133167197099522886 0
 72C:\skola\workshop\webbshop\node_modules\public-encrypt\test\test_key.pem133156662310712741 0
 104C:\skola\workshop\webbshop\node_modules\css-modules-loader-core\node_modules\supports-color\package.json133156661891438933 0
 54C:\skola\workshop\webbshop\node_modules\.bin\uncss.ps1133156661775632878 0
@@ -730,7 +742,7 @@
 95C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\mdn-text-decoration-style.js133156661842167852 0
 82C:\skola\workshop\webbshop\node_modules\@parcel\core\node_modules\dotenv\config.js133166401044772551 0
 65C:\skola\workshop\webbshop\node_modules\minimalistic-crypto-utils133156662278020342 1
-49C:\skola\workshop\webbshop\src\bilder\candel5.png133160479624418681 0
+49C:\skola\workshop\webbshop\src\bilder\candel5.png133167197251814920 0
 78C:\skola\workshop\webbshop\node_modules\es-abstract\2018\InstanceofOperator.js133156661924719875 0
 78C:\skola\workshop\webbshop\node_modules\buffer\test\node\test-buffer-badhex.js133156661832300293 0
 90C:\skola\workshop\webbshop\node_modules\unicode-trie\node_modules\pako\lib\zlib\inffast.js133156662357340616 0
@@ -741,7 +753,7 @@
 85C:\skola\workshop\webbshop\node_modules\caniuse-lite\dist\unpacker\browserVersions.js133156661854092979 0
 68C:\skola\workshop\webbshop\node_modules\@parcel\watcher\src\child.js133156661808915272 0
 105C:\skola\workshop\webbshop\node_modules\@parcel\node-resolver-core\node_modules\@parcel\utils\src\blob.js133166402895994118 0
-49C:\skola\workshop\webbshop\src\bilder\candel6.png133160479692471775 0
+49C:\skola\workshop\webbshop\src\bilder\candel6.png133167197345108281 0
 99C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\css\units.json133166402908536416 0
 107C:\skola\workshop\webbshop\node_modules\@parcel\packager-svg\node_modules\domelementtype\lib\index.d.ts.map133166402896054073 0
 134C:\skola\workshop\webbshop\node_modules\@parcel\transformer-posthtml\node_modules\dom-serializer\node_modules\entities\lib\encode.d.ts133166402904058744 0
@@ -799,7 +811,6 @@
 71C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\regions\SE.js133156661850853096 0
 60C:\skola\workshop\webbshop\node_modules\icss-replace-symbols133156661967102092 1
 62C:\skola\workshop\webbshop\node_modules\domelementtype\LICENSE133156661911930234 0
-51C:\skola\workshop\webbshop\dist\sprite.2c225794.svg133166401874711039 0
 61C:\skola\workshop\webbshop\node_modules\os-browserify\main.js133156662286943124 0
 85C:\skola\workshop\webbshop\node_modules\postcss-ordered-values\dist\rules\flexFlow.js133156662304519254 0
 111C:\skola\workshop\webbshop\node_modules\uncss\node_modules\postcss-selector-parser\postcss-selector-parser.d.ts133156662356425070 0
@@ -1334,13 +1345,6 @@
 47C:\skola\workshop\webbshop\node_modules\brorand133156661829473255 1
 61C:\skola\workshop\webbshop\node_modules\lodash\fp\defaults.js133156662001534818 0
 87C:\skola\workshop\webbshop\node_modules\parcel\node_modules\node-addon-api\CHANGELOG.md133166402905164473 0
-48C:\skola\workshop\webbshop\node_modules\levn\lib133156661990903058 1
-63C:\skola\workshop\webbshop\node_modules\uuid\lib\md5-browser.js133156662362830094 0
-137C:\skola\workshop\webbshop\node_modules\@parcel\transformer-posthtml\node_modules\dom-serializer\node_modules\entities\lib\index.d.ts.map133166402901377576 0
-93C:\skola\workshop\webbshop\node_modules\jsdom\lib\jsdom\living\nodes\HTMLTitleElement-impl.js133156661984972557 0
-97C:\skola\workshop\webbshop\node_modules\jsdom\lib\jsdom\living\nodes\HTMLParagraphElement-impl.js133156661984677148 0
-77C:\skola\workshop\webbshop\node_modules\postcss-minify-gradients\package.json133156662298421231 0
-62C:\skola\workshop\webbshop\node_modules\browser-process-hrtime133156661829563280 1
 135C:\skola\workshop\webbshop\node_modules\@parcel\transformer-posthtml\node_modules\@parcel\utils\test\input\sourcemap\source-root.js.map133166402921065228 0
 49C:\skola\workshop\webbshop\node_modules\json5\lib133156661990512863 1
 79C:\skola\workshop\webbshop\node_modules\util\node_modules\inherits\package.json133156662360237193 0
@@ -1471,7 +1475,6 @@
 51C:\skola\workshop\webbshop\node_modules\class-utils133156661854948423 1
 99C:\skola\workshop\webbshop\node_modules\@parcel\runtime-js\node_modules\@parcel\utils\src\stream.js133166402917982121 0
 73C:\skola\workshop\webbshop\node_modules\sshpk\lib\formats\openssh-cert.js133156662340677301 0
-48C:\skola\workshop\webbshop\dist\cart.c85df743.js133166467711338649 0
 98C:\skola\workshop\webbshop\node_modules\regenerate-unicode-properties\Script_Extensions\Elbasan.js133156662320417392 0
 64C:\skola\workshop\webbshop\node_modules\events\tests\num-args.js133156661948170293 0
 117C:\skola\workshop\webbshop\node_modules\@parcel\runtime-service-worker\node_modules\@parcel\utils\src\prettifyTime.js133166402914975506 0
@@ -1748,7 +1751,6 @@
 78C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\progress.js133156661845568993 0
 51C:\skola\workshop\webbshop\node_modules\esprima\bin133156661947524777 1
 81C:\skola\workshop\webbshop\node_modules\@swc\helpers\src\_to_consumable_array.mjs133166402922546323 0
-55C:\skola\workshop\webbshop\dist\styles.4c3255da.css.map133166401880882595 0
 48C:\skola\workshop\webbshop\node_modules\dashdash133156661905561514 1
 67C:\skola\workshop\webbshop\node_modules\shallow-copy\test\object.js133156662336755401 0
 57C:\skola\workshop\webbshop\node_modules\is-regex\index.js133156661973741266 0
@@ -2632,7 +2634,6 @@
 85C:\skola\workshop\webbshop\node_modules\parcel\node_modules\@parcel\watcher\src\linux133166402907175410 1
 57C:\skola\workshop\webbshop\node_modules\lodash\fp\lang.js133156662264124888 0
 55C:\skola\workshop\webbshop\node_modules\clone\clone.iml133156661855178520 0
-54C:\skola\workshop\webbshop\dist\styles.8c92722b.js.map133166401880772616 0
 50C:\skola\workshop\webbshop\node_modules\mixin-deep133156662278560321 1
 57C:\skola\workshop\webbshop\node_modules\dot-prop\index.js133156661913235801 0
 118C:\skola\workshop\webbshop\node_modules\@parcel\transformer-babel\node_modules\@parcel\utils\src\relativeBundlePath.js133166402916241185 0
@@ -2662,6 +2663,9 @@
 93C:\skola\workshop\webbshop\node_modules\expand-brackets\node_modules\define-property\index.js133156661948750227 0
 50C:\skola\workshop\webbshop\node_modules\node-forge133156662281076720 1
 88C:\skola\workshop\webbshop\node_modules\regenerate-unicode-properties\Script\Gurmukhi.js133156662318316552 0
+54C:\skola\workshop\webbshop\node_modules\node-gyp-build133166401047081707 1
+73C:\skola\workshop\webbshop\node_modules\es-abstract\helpers\isPrefixOf.js133156661945715547 0
+61C:\skola\workshop\webbshop\node_modules\static-extend\LICENSE133156662344589049 0
 88C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib133166402919659628 1
 101C:\skola\workshop\webbshop\node_modules\@parcel\packager-css\node_modules\@parcel\logger\package.json133166402892977321 0
 52C:\skola\workshop\webbshop\node_modules\regexpu-core133156662326301980 1
@@ -3121,7 +3125,6 @@
 54C:\skola\workshop\webbshop\node_modules\glob\common.js133156661956517837 0
 52C:\skola\workshop\webbshop\node_modules\safer-buffer133156662330664019 1
 71C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\regions\BS.js133156661848722111 0
-52C:\skola\workshop\webbshop\dist\products.556f8683.js133160375300488206 0
 106C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\htmlnano\docs\package.json133166402912268897 0
 68C:\skola\workshop\webbshop\node_modules\expand-brackets\package.json133156661949055645 0
 85C:\skola\workshop\webbshop\node_modules\@swc\helpers\lib\_class_private_method_set.js133166402909126393 0
@@ -3308,7 +3311,6 @@
 71C:\skola\workshop\webbshop\node_modules\supports-preserve-symlinks-flag133156662349005227 1
 57C:\skola\workshop\webbshop\node_modules\lmdb\node_modules133166401034641494 1
 84C:\skola\workshop\webbshop\node_modules\purgecss\node_modules\postcss\lib\warning.js133156662311708291 0
-51C:\skola\workshop\webbshop\dist\sprite.f14d31f7.svg133166467712534564 0
 44C:\skola\workshop\webbshop\node_modules\svgo133156662349325198 1
 81C:\skola\workshop\webbshop\node_modules\core-js\library\modules\_object-create.js133156661873127612 0
 70C:\skola\workshop\webbshop\node_modules\object-inspect\.ignored-tmp.js133156662284661626 0
@@ -5049,7 +5051,6 @@
 80C:\skola\workshop\webbshop\node_modules\es-abstract\2015\IsAccessorDescriptor.js133156661918140913 0
 60C:\skola\workshop\webbshop\node_modules\lodash\_baseMerge.js133156661992884081 0
 108C:\skola\workshop\webbshop\node_modules\postcss-modules-scope\node_modules\postcss\docs\guidelines\runner.md133156662302439472 0
-56C:\skola\workshop\webbshop\dist\testimonial.8563caf2.jpg133166401874951150 0
 105C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\src\index.js133166402884097564 0
 101C:\skola\workshop\webbshop\node_modules\uncss\node_modules\postcss-selector-parser\dist\tokenTypes.js133156662356305060 0
 116C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-image\node_modules\@parcel\utils\test\PromiseQueue.test.js133166402915851064 0
@@ -5270,7 +5271,6 @@
 104C:\skola\workshop\webbshop\node_modules\css-modules-loader-core\node_modules\postcss\lib\previous-map.js133156661890804764 0
 89C:\skola\workshop\webbshop\node_modules\@babel\plugin-transform-sticky-regex\lib\index.js133156661793680141 0
 57C:\skola\workshop\webbshop\node_modules\typescript\lib\es133166401065683275 1
-52C:\skola\workshop\webbshop\dist\webbshop.59712999.js133166467711858537 0
 85C:\skola\workshop\webbshop\node_modules\@parcel\cache\node_modules\chalk\package.json133166401046521759 0
 57C:\skola\workshop\webbshop\node_modules\typescript\lib\fr133166401065793283 1
 108C:\skola\workshop\webbshop\node_modules\@parcel\runtime-react-refresh\node_modules\supports-color\browser.js133166402883317540 0
@@ -5524,7 +5524,6 @@
 102C:\skola\workshop\webbshop\node_modules\@parcel\packager-html\node_modules\dom-serializer\node_modules133166402856299214 1
 55C:\skola\workshop\webbshop\node_modules\is-wsl\index.js133156661975342252 0
 86C:\skola\workshop\webbshop\node_modules\snapdragon\node_modules\is-descriptor\index.js133156662338546344 0
-52C:\skola\workshop\webbshop\dist\candel2.75fcdded.png133166401874800989 0
 79C:\skola\workshop\webbshop\node_modules\typedarray\test\server\undef_globals.js133156662355269568 0
 104C:\skola\workshop\webbshop\node_modules\parcel\node_modules\@parcel\utils\src\replaceBundleReferences.js133166402916756561 0
 72C:\skola\workshop\webbshop\node_modules\core-js\library\fn\math\imulh.js133156661867071084 0
@@ -5845,7 +5844,6 @@
 104C:\skola\workshop\webbshop\node_modules\parcel\node_modules\@parcel\workers\lib\threads\ThreadsWorker.js133166402910363142 0
 66C:\skola\workshop\webbshop\node_modules\to-fast-properties\license133156662353768437 0
 76C:\skola\workshop\webbshop\node_modules\send\node_modules\debug\src\debug.js133156662335819928 0
-42C:\skola\workshop\webbshop\dist\index.html133166466566881328 0
 112C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\cosmiconfig\dist\Explorer.js.map133166402902313180 0
 101C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-minify-params133166402890596217 1
 65C:\skola\workshop\webbshop\node_modules\lodash\_arrayEachRight.js133156661991758328 0
@@ -6658,7 +6656,6 @@
 93C:\skola\workshop\webbshop\node_modules\static-extend\node_modules\is-data-descriptor\LICENSE133156662344769065 0
 82C:\skola\workshop\webbshop\node_modules\@parcel\package-manager\node_modules\chalk133166401047397314 1
 98C:\skola\workshop\webbshop\node_modules\static-extend\node_modules\is-data-descriptor\package.json133156662344819046 0
-51C:\skola\workshop\webbshop\dist\products\index.html133166467712814574 0
 127C:\skola\workshop\webbshop\node_modules\@parcel\packager-html\node_modules\dom-serializer\node_modules\entities\lib\encode.d.ts133166402904118776 0
 95C:\skola\workshop\webbshop\node_modules\static-extend\node_modules\is-data-descriptor\README.md133156662344789143 0
 58C:\skola\workshop\webbshop\node_modules\lodash\throttle.js133156662274368341 0
@@ -6827,7 +6824,6 @@
 58C:\skola\workshop\webbshop\node_modules\has-flag\readme.md133156661957789383 0
 56C:\skola\workshop\webbshop\node_modules\sshpk\lib\key.js133156662340837403 0
 73C:\skola\workshop\webbshop\node_modules\node-libs-browser\mock\process.js133156662281196716 0
-56C:\skola\workshop\webbshop\dist\products.556f8683.js.map133160375300517724 0
 110C:\skola\workshop\webbshop\node_modules\@parcel\package-manager\node_modules\@parcel\workers\lib\childState.js133166401048482894 0
 70C:\skola\workshop\webbshop\node_modules\postcss-value-parser\README.md133156662305633651 0
 76C:\skola\workshop\webbshop\node_modules\es-abstract\2018\IsDataDescriptor.js133156661924879941 0
@@ -7022,7 +7018,6 @@
 54C:\skola\workshop\webbshop\node_modules\source-map\lib133156662339851949 1
 67C:\skola\workshop\webbshop\node_modules\simple-swizzle\package.json133156662337750862 0
 78C:\skola\workshop\webbshop\node_modules\jsdom\node_modules\.bin\esgenerate.cmd133156661989037230 0
-52C:\skola\workshop\webbshop\dist\favicon.21b6e204.ico133166401874691007 0
 96C:\skola\workshop\webbshop\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest.c133166401058255741 0
 71C:\skola\workshop\webbshop\node_modules\msgpackr\dist\index-no-eval.cjs133166401044922496 0
 65C:\skola\workshop\webbshop\node_modules\snapdragon-node\README.md133156662337790880 0
@@ -7345,7 +7340,6 @@
 94C:\skola\workshop\webbshop\node_modules\side-channel\node_modules\object-inspect\test\fakes.js133156662337310878 0
 61C:\skola\workshop\webbshop\node_modules\brfs\example\async.js133156661828577765 0
 66C:\skola\workshop\webbshop\node_modules\request\lib\querystring.js133156662327637384 0
-48C:\skola\workshop\webbshop\dist\main.c39d6dcf.js133166401877954337 0
 91C:\skola\workshop\webbshop\node_modules\side-channel\node_modules\object-inspect\test\fn.js133156662337320835 0
 84C:\skola\workshop\webbshop\node_modules\expand-brackets\node_modules\ms\package.json133156661949035649 0
 115C:\skola\workshop\webbshop\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-module\main.js133166402916151222 0
@@ -7971,14 +7965,6 @@
 69C:\skola\workshop\webbshop\node_modules\resolve\test\resolver_sync.js133156662329488544 0
 67C:\skola\workshop\webbshop\node_modules\component-emitter\Readme.md133156661856534035 0
 59C:\skola\workshop\webbshop\node_modules\parse-json\index.js133156662293516047 0
-73C:\skola\workshop\webbshop\node_modules\har-schema\lib\beforeRequest.json133156661957129388 0
-89C:\skola\workshop\webbshop\node_modules\csso\node_modules\css-tree\lib\convertor\index.js133156661898132454 0
-58C:\skola\workshop\webbshop\node_modules\mime-db\HISTORY.md133156662277394793 0
-59C:\skola\workshop\webbshop\node_modules\hash.js\.travis.yml133156661959090255 0
-60C:\skola\workshop\webbshop\node_modules\extglob\lib\utils.js133156661949395701 0
-69C:\skola\workshop\webbshop\node_modules\resolve\test\shadowed_core.js133156662329508527 0
-57C:\skola\workshop\webbshop\node_modules\ee-first\index.js133156661914011306 0
-106C:\skola\workshop\webbshop\node_modules\regenerate-unicode-properties\Binary_Property\Sentence_Terminal.js133156662314270397 0
 65C:\skola\workshop\webbshop\node_modules\minimist\test\kv_short.js133156662278320348 0
 63C:\skola\workshop\webbshop\node_modules\resolve\test\subdirs.js133156662329548487 0
 61C:\skola\workshop\webbshop\node_modules\core-js\es6\object.js133156661858172187 0
@@ -8986,7 +8972,6 @@
 60C:\skola\workshop\webbshop\node_modules\regenerate\README.md133156662325356418 0
 91C:\skola\workshop\webbshop\node_modules\@babel\helper-optimise-call-expression\lib\index.js133156661785010155 0
 64C:\skola\workshop\webbshop\node_modules\regenerate\regenerate.js133156662325386348 0
-50C:\skola\workshop\webbshop\dist\styles.8986bff4.js133166401880477175 0
 68C:\skola\workshop\webbshop\node_modules\node-addon-api\src\nothing.c133156662280041278 0
 56C:\skola\workshop\webbshop\node_modules\readdirp\LICENSE133156662313604974 0
 127C:\skola\workshop\webbshop\node_modules\@parcel\bundler-default\node_modules\@parcel\utils\test\input\sourcemap\no-sourcemap.js133166402913709989 0
@@ -9493,7 +9478,6 @@
 72C:\skola\workshop\webbshop\node_modules\postcss-ordered-values\README.md133156662304399308 0
 96C:\skola\workshop\webbshop\node_modules\@babel\core\lib\transformation\block-hoist-plugin.js.map133156661777623846 0
 70C:\skola\workshop\webbshop\node_modules\core-js\library\core\number.js133156661865170182 0
-63C:\skola\workshop\webbshop\dist\products\index.ea4bb48b.css.map133166403127141830 0
 59C:\skola\workshop\webbshop\node_modules\.bin\node-gyp-build133166401071287815 0
 76C:\skola\workshop\webbshop\node_modules\postcss-ordered-values\dist\index.js133156662304419335 0
 112C:\skola\workshop\webbshop\node_modules\@parcel\packager-html\node_modules\@parcel\utils\test\DefaultMap.test.js133166402903618734 0
@@ -9613,7 +9597,6 @@
 60C:\skola\workshop\webbshop\node_modules\core-js\library\core133156661865210128 1
 137C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\050-modules.md133166402916566567 0
 71C:\skola\workshop\webbshop\node_modules\postcss-discard-empty\README.md133156662296900430 0
-50C:\skola\workshop\webbshop\dist\styles.4c3255da.js133166401880477175 0
 69C:\skola\workshop\webbshop\node_modules\nanoid\url-alphabet\index.cjs133166402895524109 0
 89C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\css-scroll-timeline.js133156661838570666 0
 99C:\skola\workshop\webbshop\node_modules\postcss-modules-scope\node_modules\postcss\lib\postcss.d.ts133156662302689452 0
@@ -9795,7 +9778,6 @@
 106C:\skola\workshop\webbshop\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias133166402920159900 1
 118C:\skola\workshop\webbshop\node_modules\postcss-minify-selectors\node_modules\postcss-selector-parser\dist\tokenize.js133156662300921859 0
 127C:\skola\workshop\webbshop\node_modules\postcss-minify-selectors\node_modules\postcss-selector-parser\dist\selectors\comment.js133156662298791127 0
-52C:\skola\workshop\webbshop\dist\products.e4500dc6.js133166467711848584 0
 57C:\skola\workshop\webbshop\node_modules\lodash\fp\some.js133156662265760370 0
 129C:\skola\workshop\webbshop\node_modules\postcss-minify-selectors\node_modules\postcss-selector-parser\dist\selectors\container.js133156662298821340 0
 109C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\index.js133166402917392211 0
@@ -10279,7 +10261,6 @@
 80C:\skola\workshop\webbshop\node_modules\has-values\node_modules\kind-of\index.js133156661958494902 0
 85C:\skola\workshop\webbshop\node_modules\@parcel\transformer-svg\node_modules\posthtml133166402892737353 1
 59C:\skola\workshop\webbshop\node_modules\performance-now\lib133156662294819607 1
-52C:\skola\workshop\webbshop\dist\cart.c85df743.js.map133166467711568573 0
 95C:\skola\workshop\webbshop\node_modules\@parcel\transformer-svg\node_modules\posthtml\readme.md133166402891351794 0
 71C:\skola\workshop\webbshop\node_modules\performance-now\test\mocha.opts133156662294899553 0
 64C:\skola\workshop\webbshop\node_modules\core-js\fn\string\big.js133156661863813647 0
@@ -10423,7 +10404,6 @@
 96C:\skola\workshop\webbshop\node_modules\parse5\lib\extensions\error-reporting\tokenizer-mixin.js133156662293726045 0
 62C:\skola\workshop\webbshop\node_modules\events\tests\common.js133156661948030229 0
 52C:\skola\workshop\webbshop\node_modules\deasync\spec133156661909543667 1
-52C:\skola\workshop\webbshop\dist\main.c39d6dcf.js.map133166401878334396 0
 72C:\skola\workshop\webbshop\node_modules\parse5\lib\common\error-codes.js133156662293626040 0
 76C:\skola\workshop\webbshop\node_modules\parse5\lib\common\foreign-content.js133156662293636078 0
 100C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-calc\LICENSE133166402881506501 0
@@ -11445,7 +11425,6 @@
 68C:\skola\workshop\webbshop\node_modules\object.assign\test\native.js133156662285767415 0
 72C:\skola\workshop\webbshop\node_modules\object.assign\test\ses-compat.js133156662285777363 0
 55C:\skola\workshop\webbshop\node_modules\bn.js\README.md133156661828117772 0
-50C:\skola\workshop\webbshop\dist\styles.8c92722b.js133166401880477175 0
 69C:\skola\workshop\webbshop\node_modules\object.assign\test\shimmed.js133156662285797425 0
 89C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-terser\node_modules\.bin\terser133166402933099379 0
 107C:\skola\workshop\webbshop\node_modules\@parcel\transformer-css\node_modules\@parcel\utils\src\sourcemap.js133166402917532142 0
@@ -13387,7 +13366,6 @@
 91C:\skola\workshop\webbshop\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_stat.1133166401052817547 0
 91C:\skola\workshop\webbshop\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_stat.c133166401056264612 0
 92C:\skola\workshop\webbshop\node_modules\core-js\library\modules\es6.reflect.is-extensible.js133156661875940306 0
-40C:\skola\workshop\webbshop\dist\index.js133166401877964419 0
 78C:\skola\workshop\webbshop\node_modules\es-abstract\2021\StringToCodePoints.js133156661938734245 0
 89C:\skola\workshop\webbshop\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\module.c133166401057885569 0
 88C:\skola\workshop\webbshop\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest.c133166401058330911 0
@@ -14321,9 +14299,7 @@
 79C:\skola\workshop\webbshop\node_modules\@babel\runtime\helpers\slicedToArray.js133156661800123726 0
 86C:\skola\workshop\webbshop\node_modules\buffer\test\node\test-buffer-compare-offset.js133156661832330283 0
 73C:\skola\workshop\webbshop\node_modules\iconv-lite\encodings\dbcs-data.js133156661966690343 0
-54C:\skola\workshop\webbshop\dist\index.4d663569.css.map133166403127131831 0
 72C:\skola\workshop\webbshop\node_modules\iconv-lite\encodings\internal.js133156661966720338 0
-59C:\skola\workshop\webbshop\dist\products\index.ea4bb48b.css133166403127031869 0
 83C:\skola\workshop\webbshop\node_modules\iconv-lite\encodings\sbcs-data-generated.js133156661966750362 0
 60C:\skola\workshop\webbshop\node_modules\core-js\core\dict.js133156661857932204 0
 113C:\skola\workshop\webbshop\node_modules\@parcel\transformer-react-refresh-wrap\src\ReactRefreshWrapTransformer.js133166402894998515 0
@@ -14890,7 +14866,6 @@
 61C:\skola\workshop\webbshop\node_modules\has-ansi\package.json133156661957569372 0
 58C:\skola\workshop\webbshop\node_modules\has-ansi\readme.md133156661957589374 0
 72C:\skola\workshop\webbshop\node_modules\has-ansi\node_modules\ansi-regex133156661957559321 1
-50C:\skola\workshop\webbshop\dist\index.4d663569.css133166403127021895 0
 88C:\skola\workshop\webbshop\node_modules\fast-glob\package\out\providers\reader-stream.js133156661953587327 0
 75C:\skola\workshop\webbshop\node_modules\elliptic\node_modules\bn.js\LICENSE133156661914581314 0
 80C:\skola\workshop\webbshop\node_modules\has-ansi\node_modules\ansi-regex\license133156661957529382 0
@@ -15056,7 +15031,6 @@
 85C:\skola\workshop\webbshop\node_modules\@swc\helpers\src\_class_private_field_get.mjs133166402921370913 0
 111C:\skola\workshop\webbshop\node_modules\@parcel\runtime-react-refresh\node_modules\@parcel\utils\src\urlJoin.js133166402918584539 0
 71C:\skola\workshop\webbshop\node_modules\function-bind\implementation.js133156661955092268 0
-51C:\skola\workshop\webbshop\dist\sprite.923cd7d0.svg133156655422840732 0
 62C:\skola\workshop\webbshop\node_modules\function-bind\index.js133156661955112264 0
 74C:\skola\workshop\webbshop\node_modules\@babel\runtime\helpers\decorate.js133156661795781156 0
 61C:\skola\workshop\webbshop\node_modules\function-bind\LICENSE133156661955072251 0
@@ -15561,7 +15535,6 @@
 85C:\skola\workshop\webbshop\node_modules\es-abstract\2022\IsStringWellFormedUnicode.js133156661940675024 0
 95C:\skola\workshop\webbshop\node_modules\es-abstract\node_modules\object-inspect\test\inspect.js133156661946239247 0
 94C:\skola\workshop\webbshop\node_modules\es-abstract\node_modules\object-inspect\test\number.js133156661946259243 0
-51C:\skola\workshop\webbshop\dist\styles.8c92722b.css133166401874445557 0
 106C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\reusePaths.js133166402916656605 0
 112C:\skola\workshop\webbshop\node_modules\@parcel\runtime-react-refresh\node_modules\@parcel\utils\src\throttle.js133166402918304550 0
 105C:\skola\workshop\webbshop\node_modules\@parcel\transformer-svg\node_modules\posthtml-parser\package.json133166402891341844 0
@@ -16196,7 +16169,6 @@
 62C:\skola\workshop\webbshop\node_modules\ajv\lib\dotjs\oneOf.js133156661811412789 0
 79C:\skola\workshop\webbshop\node_modules\es-abstract\2020\OrdinaryToPrimitive.js133156661932972549 0
 70C:\skola\workshop\webbshop\node_modules\es-abstract\2020\RegExpExec.js133156661933042536 0
-52C:\skola\workshop\webbshop\dist\favicon.7b561d85.ico133156655422700745 0
 85C:\skola\workshop\webbshop\node_modules\@babel\plugin-proposal-dynamic-import\LICENSE133156661787407998 0
 69C:\skola\workshop\webbshop\node_modules\es-abstract\2020\SameValue.js133156661933062516 0
 79C:\skola\workshop\webbshop\node_modules\es-abstract\2020\SameValueNonNumeric.js133156661933082537 0
@@ -16502,7 +16474,6 @@
 102C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo\jsAPI.js133166402909387616 0
 104C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-terser\node_modules\color-convert\package.json133166402881326429 0
 83C:\skola\workshop\webbshop\node_modules\core-js\library\modules\es6.string.fixed.js133156661876330311 0
-59C:\skola\workshop\webbshop\dist\cart\index.cc2612d5.css.map133166467711022392 0
 63C:\skola\workshop\webbshop\node_modules\es-abstract\2018\Set.js133156661928589301 0
 77C:\skola\workshop\webbshop\node_modules\es-abstract\2018\SetIntegrityLevel.js133156661928629300 0
 88C:\skola\workshop\webbshop\node_modules\@swc\helpers\src\_class_private_field_update.mjs133166402921500965 0
@@ -17711,7 +17682,6 @@
 73C:\skola\workshop\webbshop\node_modules\css-tree\lib\syntax\config\mix.js133156661892684441 0
 87C:\skola\workshop\webbshop\node_modules\@parcel\transformer-image\lib\validateConfig.js133166402894308527 0
 75C:\skola\workshop\webbshop\node_modules\css-tree\lib\syntax\atrule\index.js133156661892624458 0
-55C:\skola\workshop\webbshop\dist\styles.8c92722b.css.map133166401880882595 0
 56C:\skola\workshop\webbshop\node_modules\@babel\types\lib133156661803315948 1
 75C:\skola\workshop\webbshop\node_modules\css-tree\lib\syntax\atrule\media.js133156661892634410 0
 74C:\skola\workshop\webbshop\node_modules\css-tree\lib\syntax\atrule\page.js133156661892654448 0
@@ -18457,7 +18427,6 @@
 77C:\skola\workshop\webbshop\node_modules\core-js\library\modules\_iter-call.js133156661872836581 0
 79C:\skola\workshop\webbshop\node_modules\core-js\library\modules\_iter-detect.js133156661872886510 0
 77C:\skola\workshop\webbshop\node_modules\core-js\library\modules\_iterators.js133156661872917646 0
-52C:\skola\workshop\webbshop\dist\favicon.672fcfcc.ico133166467708604881 0
 98C:\skola\workshop\webbshop\node_modules\@parcel\runtime-react-refresh\node_modules\chalk\readme.md133166402894163157 0
 73C:\skola\workshop\webbshop\node_modules\core-js\library\modules\_keyof.js133156661872927664 0
 79C:\skola\workshop\webbshop\node_modules\core-js\library\modules\_math-fround.js133156661872967656 0
@@ -18586,7 +18555,6 @@
 78C:\skola\workshop\webbshop\node_modules\core-js\library\fn\string\fontcolor.js133156661868642002 0
 117C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-minify-gradients\src\index.js133166402884137732 0
 84C:\skola\workshop\webbshop\node_modules\core-js\library\fn\string\from-code-point.js133156661868661975 0
-52C:\skola\workshop\webbshop\dist\favicon.be4b0254.ico133166467708624917 0
 104C:\skola\workshop\webbshop\node_modules\@parcel\runtime-browser-hmr\node_modules\color-name\package.json133166402881171232 0
 76C:\skola\workshop\webbshop\node_modules\core-js\library\fn\string\italics.js133156661870672812 0
 72C:\skola\workshop\webbshop\node_modules\core-js\library\fn\string\sup.js133156661870842945 0
@@ -19535,7 +19503,6 @@
 87C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\css3-cursors-grab.js133156661839025995 0
 88C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\css3-cursors-newer.js133156661839045993 0
 82C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\css3-cursors.js133156661839056001 0
-52C:\skola\workshop\webbshop\dist\favicon.7715f3a8.ico133166401874691007 0
 82C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\currentcolor.js133156661839085992 0
 85C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\custom-elements.js133156661839095994 0
 77C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\dataset.js133156661839176018 0
@@ -19685,7 +19652,6 @@
 74C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\ruby.js133156661845981209 0
 84C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\serviceworkers.js133156661846201267 0
 87C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\sharedarraybuffer.js133156661846281169 0
-44C:\skola\workshop\webbshop\dist\index.js.map133166401878344395 0
 83C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\sharedworkers.js133156661846301241 0
 67C:\skola\workshop\webbshop\node_modules\@jridgewell\sourcemap-codec133156661807594205 1
 74C:\skola\workshop\webbshop\node_modules\caniuse-lite\data\features\spdy.js133156661846341221 0
@@ -21790,7 +21756,6 @@
 101C:\skola\workshop\webbshop\node_modules\@parcel\transformer-image\node_modules\@parcel\logger\LICENSE133166402881050988 0
 97C:\skola\workshop\webbshop\node_modules\@parcel\transformer-image\node_modules\@parcel\logger\src133166402886238914 1
 98C:\skola\workshop\webbshop\node_modules\@parcel\transformer-image\node_modules\@parcel\logger\test133166402889810726 1
-51C:\skola\workshop\webbshop\dist\styles.8986bff4.css133166401874385384 0
 89C:\skola\workshop\webbshop\node_modules\@parcel\transformer-image\lib\ImageTransformer.js133166402883757590 0
 82C:\skola\workshop\webbshop\node_modules\@parcel\transformer-image\lib\loadSharp.js133166402889600735 0
 68C:\skola\workshop\webbshop\node_modules\@parcel\transformer-html\lib133166402894033012 1
@@ -22922,7 +22887,6 @@
 104C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\nth-check\lib\compile.js133166402884067646 0
 100C:\skola\workshop\webbshop\node_modules\@parcel\packager-svg\node_modules\color-convert\CHANGELOG.md133166402883387569 0
 36C:\skola\workshop\webbshop\.cache\89133166398080988875 1
-52C:\skola\workshop\webbshop\dist\candel7.050ce7b4.png133166467709696770 0
 99C:\skola\workshop\webbshop\node_modules\@parcel\packager-js\node_modules\color-convert\CHANGELOG.md133166402883397620 0
 102C:\skola\workshop\webbshop\node_modules\@parcel\packager-svg\node_modules\color-convert\conversions.js133166402887184347 0
 97C:\skola\workshop\webbshop\node_modules\@parcel\packager-svg\node_modules\color-convert\README.md133166402893772987 0
@@ -23693,7 +23657,6 @@
 100C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-terser\node_modules\@parcel\logger\LICENSE133166402881336521 0
 97C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-terser\node_modules\@parcel\logger\test133166402889930728 1
 112C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-terser\node_modules\@parcel\logger\test\Logger.test.js133166402890506224 0
-54C:\skola\workshop\webbshop\dist\styles.4c3255da.js.map133166401880772616 0
 106C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-svgo\node_modules\@parcel\utils\src\sourcemap.js133166402917582178 0
 106C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-terser\node_modules\@parcel\logger\src\Logger.js133166402887609723 0
 106C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-terser\node_modules\@parcel\logger\lib\Logger.js133166402884027557 0
@@ -23899,7 +23862,6 @@
 109C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\not.js133166402919769627 0
 115C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\nth-child.js133166402919829625 0
 120C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\nth-last-child.js133166402919889706 0
-57C:\skola\workshop\webbshop\dist\candle-15890.733e23d4.png133156655422640710 0
 122C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\nth-last-of-type.js133166402919939606 0
 117C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\nth-of-type.js133166402919979656 0
 111C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\AnPlusB.js133166402889970783 0
@@ -23952,7 +23914,6 @@
 107C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\convertor\index.js133166402915871063 0
 97C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\srcset\index.d.ts133166402891156461 0
 103C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\common\List.js133166402918794561 0
-36C:\skola\workshop\webbshop\dist\cart133166467712884566 1
 104C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\dist\csstree.min.js133166402911398581 0
 100C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\data\patch.json133166402922201081 0
 94C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-svgo\node_modules\css-select\LICENSE133166402881356470 0
@@ -24407,7 +24368,6 @@
 125C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-normalize-whitespace\types\index.d.ts133166402892527305 0
 121C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-normalize-whitespace\src\index.js133166402884107594 0
 113C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-normalize-url\LICENSE-MIT133166402881456419 0
-51C:\skola\workshop\webbshop\dist\styles.4c3255da.css133166401874385384 0
 109C:\skola\workshop\webbshop\node_modules\@babel\helper-builder-binary-assignment-operator-visitor\package.json133156661779593866 0
 111C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-normalize-url\README.md133166402889510858 0
 85C:\skola\workshop\webbshop\node_modules\@babel\helper-module-imports\lib\is-module.js133156661784747454 0
@@ -24459,7 +24419,6 @@
 114C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-minify-font-values\src\lib133166402893932977 1
 126C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-minify-font-values\src\lib\keywords.js133166402887679630 0
 111C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-merge-rules\LICENSE-MIT133166402881496427 0
-56C:\skola\workshop\webbshop\dist\webbshop.59712999.js.map133166467711948542 0
 112C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-merge-rules\package.json133166402891701772 0
 109C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-merge-rules\README.md133166402893922994 0
 103C:\skola\workshop\webbshop\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-merge-rules\src133166402888249839 1
@@ -25676,7 +25635,6 @@
 110C:\skola\workshop\webbshop\node_modules\@parcel\cache\node_modules\@parcel\workers\lib\threads\ThreadsChild.js133166401053773019 0
 111C:\skola\workshop\webbshop\node_modules\@parcel\cache\node_modules\@parcel\workers\lib\threads\ThreadsWorker.js133166401054708756 0
 110C:\skola\workshop\webbshop\node_modules\@parcel\cache\node_modules\@parcel\workers\lib\process\ProcessChild.js133166401052427674 0
-46C:\skola\workshop\webbshop\dist\index.html.map133166401880942580 0
 94C:\skola\workshop\webbshop\node_modules\@parcel\cache\node_modules\@parcel\watcher\binding.gyp133166401051014128 0
 90C:\skola\workshop\webbshop\node_modules\@parcel\cache\node_modules\@parcel\watcher\LICENSE133166401043606937 0
 92C:\skola\workshop\webbshop\node_modules\@parcel\cache\node_modules\@parcel\watcher\prebuilds133166401056980022 1
@@ -26315,7 +26273,6 @@
 79C:\skola\workshop\webbshop\node_modules\@babel\plugin-transform-modules-amd\lib133156661792304533 1
 85C:\skola\workshop\webbshop\node_modules\@babel\plugin-transform-modules-amd\README.md133156661792274609 0
 92C:\skola\workshop\webbshop\node_modules\@babel\plugin-transform-modules-amd\lib\index.js.map133156661792314547 0
-63C:\skola\workshop\webbshop\dist\products\index.78d34cc4.css.map133166467711568573 0
 103C:\skola\workshop\webbshop\node_modules\@babel\plugin-transform-member-expression-literals\package.json133156661792234549 0
 76C:\skola\workshop\webbshop\node_modules\@babel\plugin-transform-literals\lib133156661792134541 1
 80C:\skola\workshop\webbshop\node_modules\@babel\plugin-transform-literals\LICENSE133156661792104583 0
@@ -26759,42 +26716,6 @@
 54C:\skola\workshop\webbshop\node_modules\.bin\uncss.cmd133156661775622920 0
 53C:\skola\workshop\webbshop\node_modules\.bin\uuid.ps1133156661775672980 0
 54C:\skola\workshop\webbshop\node_modules\.bin\which.ps1133156661775713166 0
-52C:\skola\workshop\webbshop\dist\candel1.912cfcdd.png133166467709736654 0
-52C:\skola\workshop\webbshop\dist\candel1.e349d061.png133166401874721065 0
-52C:\skola\workshop\webbshop\dist\candel2.68a187e4.png133166467710146982 0
-52C:\skola\workshop\webbshop\dist\candel3.21161bcc.png133166401874841023 0
-52C:\skola\workshop\webbshop\dist\candel3.5ce4b15c.png133166467709756649 0
-52C:\skola\workshop\webbshop\dist\candel4.a0c39db3.png133166467710156833 0
-52C:\skola\workshop\webbshop\dist\candel4.c6d1d940.png133166401874731041 0
-52C:\skola\workshop\webbshop\dist\candel5.47e1d2d6.png133166401874731041 0
-52C:\skola\workshop\webbshop\dist\candel5.7b8706d2.png133166467709666725 0
-52C:\skola\workshop\webbshop\dist\candel6.0148fef0.png133166467710106829 0
-52C:\skola\workshop\webbshop\dist\candel6.a850febe.png133166401874750988 0
-52C:\skola\workshop\webbshop\dist\candel7.38f0d0e4.png133166401874770972 0
-57C:\skola\workshop\webbshop\dist\candle-15915.e746b339.png133156655422670751 0
-50C:\skola\workshop\webbshop\dist\index.b10d73a7.css133166467710402552 0
-54C:\skola\workshop\webbshop\dist\index.b10d73a7.css.map133166467711063244 0
-49C:\skola\workshop\webbshop\dist\index.bc9084ba.js133166467711378553 0
-53C:\skola\workshop\webbshop\dist\index.bc9084ba.js.map133166467711568573 0
-36C:\skola\workshop\webbshop\.cache\0a133166398070953782 1
-46C:\skola\workshop\webbshop\dist\js.00a46daa.js133160375300400574 0
-50C:\skola\workshop\webbshop\dist\js.00a46daa.js.map133160375300439601 0
-46C:\skola\workshop\webbshop\dist\js.d8a198e6.js133160375300458939 0
-50C:\skola\workshop\webbshop\dist\js.d8a198e6.js.map133156655422760722 0
-40C:\skola\workshop\webbshop\dist\products133166467712854474 1
-56C:\skola\workshop\webbshop\dist\products.e4500dc6.js.map133166467711938746 0
-50C:\skola\workshop\webbshop\dist\slider.d16eec5e.js133160375300537108 0
-54C:\skola\workshop\webbshop\dist\slider.d16eec5e.js.map133160375300615401 0
-51C:\skola\workshop\webbshop\dist\sprite.5ec50489.svg133166401874691007 0
-51C:\skola\workshop\webbshop\dist\sprite.8d297214.svg133166467712814574 0
-55C:\skola\workshop\webbshop\dist\styles.8986bff4.css.map133166401880872522 0
-54C:\skola\workshop\webbshop\dist\styles.8986bff4.js.map133166401880772616 0
-56C:\skola\workshop\webbshop\dist\testimonial.abc4a7a4.jpg133166403128943182 0
-59C:\skola\workshop\webbshop\dist\products\index.78d34cc4.css133166467711418698 0
-55C:\skola\workshop\webbshop\dist\cart\index.5e5faf21.css133166403128067606 0
-59C:\skola\workshop\webbshop\dist\cart\index.5e5faf21.css.map133166403128357792 0
-55C:\skola\workshop\webbshop\dist\cart\index.cc2612d5.css133166467710402552 0
-47C:\skola\workshop\webbshop\dist\cart\index.html133166467712814574 0
 48C:\skola\workshop\webbshop\.vscode\settings.json133160375300322378 0
 36C:\skola\workshop\webbshop\.cache\00133166398070503735 1
 36C:\skola\workshop\webbshop\.cache\02133166398070613704 1
@@ -26805,6 +26726,7 @@
 36C:\skola\workshop\webbshop\.cache\06133166398070813919 1
 36C:\skola\workshop\webbshop\.cache\07133166398070853801 1
 36C:\skola\workshop\webbshop\.cache\08133166398070883773 1
+36C:\skola\workshop\webbshop\.cache\0a133166398070953782 1
 36C:\skola\workshop\webbshop\.cache\0c133166398070993781 1
 36C:\skola\workshop\webbshop\.cache\0d133166398071013755 1
 36C:\skola\workshop\webbshop\.cache\0e133166398071023770 1

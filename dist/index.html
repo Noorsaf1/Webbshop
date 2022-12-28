@@ -14,17 +14,17 @@
 
   <!-- Carousel -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
-">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
   <script src="/index.bc9084ba.js"></script>
+  <!-- <script src="./nav.js"></script> -->
   <!-- Custom StyleSheet -->
   <link rel="stylesheet" href="/index.b10d73a7.css">
 
   <title>Candles</title>
 </head>
 
-<body onload="loadCart()">
+<body onload="loadjs()">
 
   <!-- Header -->
   <header id="header" class="header">
@@ -47,7 +47,7 @@
             <div class="menu__top">
               <span class="nav__category">Candles Galore!</span>
               <a href="#" class="close__toggle">
-
+                <img width="20" alt="Cross red circle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Cross_red_circle.svg/512px-Cross_red_circle.svg.png">
               </a>
             </div>
             <ul class="nav__list">
@@ -62,26 +62,23 @@
                 <a href="#footer" class="nav__link scroll-link">Contact</a>
               </li>
 
-              <li class="nav__item">
-                <a href="#about" class="nav__link scroll-link">AboutUs</a>
-              </li>
             </ul>
           </div>
-
-
 
           <div class="nav__icons">
 
 
             <label id="cart-icon" href="./cart/index.html" class="icon__item">
               <i class="bx bx-shopping-bag" id="cart-icon"></i>
-              <span id="cart__total">0</span>
+              <span id="cart__total" class="cart__total"></span>
             </label>
-            <div id="cart-list" class="cart-list" style="width: 200px; height: 400px; background: wheat">
+            <div id="cart-list" class="cart-list">
               <div class="cart-container">
 
               </div>
-              <a href="/cart/index.html"> View Cart</a>
+              <a class="go-to-cart" href="/cart/index.html"> View Cart <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 -45 448 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                  <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path>
+                </svg></a>
             </div>
 
           </div>
@@ -151,9 +148,6 @@
   <main id="main">
     <div class="container">
 
-
-
-
       <section class="category__section section" id="category">
         <div class="tab__list">
           <div class="title__container tabs">
@@ -164,9 +158,6 @@
               </div>
             </div>
           </div>
-
-          <!--Shop-->
-
           <!-- Shop -->
           <section class="shop container">
 
@@ -176,7 +167,7 @@
               <div class="product-box">
                 <a href="/products/index.html#candel1">
                   <img src="/candel1.912cfcdd.png" alt="" class="product-img">
-                  <h2 class="product-title">Apple Picking– 7.2 oz Soy Candle</h2>
+                  <h2 class="product-title">Scented Candle Avoca Rosie Posie</h2>
                   <span class="price">$30</span>
                 </a>
               </div>
@@ -184,7 +175,7 @@
               <div class="product-box">
                 <a href="/products/index.html#candel2">
                   <img src="/candel2.68a187e4.png" alt="" class="product-img">
-                  <h2 class="product-title">Citrus Daze– 7.2 oz Soy Candle</h2>
+                  <h2 class="product-title">Scented Candle Mahogany Teakwood</h2>
                   <span class="price">$30</span>
                 </a>
               </div>
@@ -192,7 +183,7 @@
               <div class="product-box">
                 <a href="/products/index.html#candel3">
                   <img src="/candel3.5ce4b15c.png" alt="" class="product-img">
-                  <h2 class="product-title">Amber & Moss– 7.2 oz Soy Candle</h2>
+                  <h2 class="product-title">Scented Candle Erkens</h2>
                   <span class="price">$30</span>
                   <a href="/products/index.html#candel4"> </a>
               </a></div>
@@ -200,7 +191,7 @@
               <div class="product-box">
                 <a href="/products/index.html">
                   <img src="/candel4.a0c39db3.png" alt="" class="product-img">
-                  <h2 class="product-title">Golden Hour– 10 oz Soy Candle</h2>
+                  <h2 class="product-title">Scented Candle The library</h2>
                   <span class="price">$30</span>
                   <a href="/products/index.html#candel5"> </a>
               </a></div>
@@ -208,13 +199,21 @@
               <div class="product-box">
                 <a href="/products/index.html#candel6">
                   <img src="/candel5.7b8706d2.png" alt="" class="product-img">
-                  <h2 class="product-title">Moonrise– 10 oz Soy Candle</h2>
+                  <h2 class="product-title">Scented Candle Skinny Girl</h2>
                   <span class="price">$30</span>
                   <a href="/products/index.html"> </a>
               </a></div>
 
             </div>
           </section>
+          <div class="view-products">
+            <a class="go-to-products" href="/products/index.html">
+              <p> View Products </p><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path>
+              </svg>
+            </a>
+          </div>
+
 
         </div>
         <div class="category__container" data-aos="fade-up" data-aos-duration="1200">
@@ -223,12 +222,6 @@
     </section></div>
     
 
-
-
-
-
-
-
     <!-- Footer -->
     <footer id="footer" class="section footer">
       <div class="container">
@@ -236,8 +229,8 @@
 
           <div class="footer-top__box">
             <h3>INFORMATION</h3>
-            <a href="#">About Us</a>
-            <a href="#">Contact Us</a>
+            <a href="candle galore">About Us</a>
+            <a href="https://github.com/ebrahimmousa">Contact Us</a>
             <a href="#">Site Map</a>
           </div>
 
@@ -249,7 +242,8 @@
                   <use xlink:href="/sprite.f14d31f7.svg#icon-location"></use>
                 </svg>
               </span>
-              Nekvägen 115 72473 Spånga
+              Elsarostigen 6 <br>
+              152 48 Södertälje
             </div>
             <div>
               <span>
@@ -257,7 +251,7 @@
                   <use xlink:href="/sprite.f14d31f7.svg#icon-envelop"></use>
                 </svg>
               </span>
-              company@gmail.com
+              ebrahim-mousa@hotmail.com
             </div>
             <div>
               <span>
@@ -265,16 +259,11 @@
                   <use xlink:href="/sprite.f14d31f7.svg#icon-phone"></use>
                 </svg>
               </span>
-              0790165648
+              0728735725
             </div>
-            <div>
-              <span>
-                <svg>
-                  <use xlink:href="/sprite.f14d31f7.svg#icon-paperplane"></use>
-                </svg>
-              </span>
-              Dream City, Dubai
-            </div>
+          </div>
+          <div class="footer-top__box">
+            <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2042.1458979016081!2d17.635385100000004!3d59.21357619999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f0d6ecb6a953f%3A0xeec06782679f4fc3!2sElsarostigen%206%2C%20152%2048%20S%C3%B6dert%C3%A4lje!5e0!3m2!1sen!2sse!4v1672175608103!5m2!1sen!2sse" width="400" height="200" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
@@ -287,32 +276,19 @@
         </div>
       </div>
       
-      <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.1302045981608!2d17.981892415962474!3d59.33077998165936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d6c21fb0343%3A0xe531e25988e5948e!2sMedieinstitutet!5e0!3m2!1sen!2sse!4v1671706256835!5m2!1sen!2sse" width="400" height="200" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     </footer>
     <!-- End Footer -->
-
-
-
-
-
 
     <!-- Glide Carousel Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
     <script>new Glide(".glide", {
-    autoplay: 3000
+    autoplay: 2000
 }).mount();
 
 </script>
     <!-- Animate On Scroll -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <!-- <script src="./js/main.js "></script> -->
-
-    <!-- Custom JavaScript -->
-    <!-- <script src="./js/products.js"></script> -->
-
-    <!-- <script src="./js/slider.js"></script> -->
-
 </main><script src="/webbshop.59712999.js"></script></body>
 
 </html>

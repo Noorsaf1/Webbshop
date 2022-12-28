@@ -19,7 +19,11 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
   <!-- <link rel="stylesheet" href="../styles.css"> -->
   <!-- Custom StyleSheet -->
+
   <link rel="stylesheet" href="/products/index.78d34cc4.css">
+
+
+
 
   <!-- <script src="./jss/main.js"></script> -->
 
@@ -28,7 +32,7 @@
   <title>Products</title>
 </head>
 
-<body onload="loadCart()">
+<body onload="loadjs()">
 
   <!-- Header -->
   <header id="header" class="header">
@@ -51,7 +55,7 @@
             <div class="menu__top">
               <span class="nav__category">Candles Galore!</span>
               <a href="#" class="close__toggle">
-
+                <img width="20" alt="Cross red circle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Cross_red_circle.svg/512px-Cross_red_circle.svg.png">
               </a>
             </div>
             <ul class="nav__list">
@@ -72,15 +76,20 @@
             </ul>
           </div>
 
-          <label id="cart-icon" href="./cart/index.html" class="icon__item">
-            <i class="bx bx-shopping-bag" id="cart-icon"></i>
-            <span id="cart__total">0</span>
-          </label>
-          <div id="cart-list" class="cart-list" style="width: 200px; height: 400px; background: wheat">
-            <div class="cart-container">
+          <div class="nav__icons">
+            <label id="cart-icon" href="./cart/index.html" class="icon__item">
+              <i class="bx bx-shopping-bag" id="cart-icon"></i>
+              <span id="cart__total" class="cart__total"></span>
+            </label>
+            <div id="cart-list" class="cart-list">
+              <div class="cart-container">
 
+              </div>
+              <a class="go-to-cart" href="/cart/index.html"> View Cart <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 -45 448 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                  <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path>
+                </svg></a>
             </div>
-            <a href="/cart/index.html"> View Cart</a>
+
           </div>
 
         </nav>
@@ -105,13 +114,12 @@
       <div class="avo" id="candel1">
         <div class="textp">
           <h4>Scented Candle Avoca Rosie Posie $30</h4>
-          <p>
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
-            not only five centuries </p>
+          <p> Our Avoca Tea Rose Scented Candle is a sweet and floral treat for the senses. Perfect to place in your
+            home or to gift. </p>
           <di class="textimg">
             <img src="/candel1.912cfcdd.png" alt=" img0">
         </di></div>
-        <button class="add-to-cart-button" onclick="addToCart(1,'Scented Candle Avoca Rosie Posie',30,'candel1.png')">Shop
+        <button class="add-to-cart-button" onclick="addToCart(1,'Scented Candle Avoca Rosie Posie',30,'https://images.pngnice.com/download/2007/Scented-Candles-PNG-Picture.png')">Shop
           Now</button>
       </div>
       
@@ -123,26 +131,27 @@
         <div class="textp">
           <h4>Scented Candle Mahogany Teakwood $30</h4>
           <p>
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
-            not only five centuries </p>
+            A fine wood fragrance combination of mahogany, cedarwood and oak with top notes of fresh lavender and
+            geranium. </p>
           <di class="textimg">
             <img src="/candel2.68a187e4.png" alt=" img0">
         </di></div>
-        <button class="add-to-cart-button" onclick="addToCart(2,'Scented Candle Mahogany Teakwood',30,'candel2.png')">Shop Now</button>
+        <button class="add-to-cart-button" onclick="addToCart(2,'Scented Candle Mahogany Teakwood',30,'https://images.pngnice.com/download/2007/Scented-Candles-PNG-Transparent-Image.png')">Shop
+          Now</button>
       </div>
       
       <br>
       <br>
       <div class="avo" id="candel3">
         <div class="textp">
-          <h4>Apple Picking Soy Candel $30</h4>
+          <h4>Scented Candle Erkens $30</h4>
           <p>
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
-            not only five centuries </p>
+            Cold autumn days, crunching leaves beneath your feet, endless cider refills. Crisp Apples, Mulled Cider, and
+            Cedarwood. </p>
           <di class="textimg1">
             <img src="/candel3.5ce4b15c.png" alt=" img0">
         </di></div>
-        <button class="add-to-cart-button" onclick="addToCart(3,'Apple Picking Soy Candel',30,'candel3.png')">Shop
+        <button class="add-to-cart-button" onclick="addToCart(3,'Apple Picking Soy Candel',30,'https://images.pngnice.com/download/2007/Scented-Candles-PNG-Transparent-Picture.png')">Shop
           Now</button>
       </div>
       
@@ -150,14 +159,14 @@
       <br>
       <div class="avo" id="candel4">
         <div class="textp">
-          <h4>Citruz Daze Soy Candel $30</h4>
+          <h4>Scented Candle The Library $30</h4>
           <p>
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
-            not only five centuries </p>
+            Endless citrus groves surrounded by green velveteen hills, lush botanical gardens, discovering fields of
+            wild blooming poppies. Botanical and citrusy.</p>
           <di class="textimg1">
             <img src="/candel4.a0c39db3.png" alt=" img0">
         </di></div>
-        <button class="add-to-cart-button" onclick="addToCart(4,'Citruz Daze Soy Candel',30,'candel4.png')">Shop
+        <button class="add-to-cart-button" onclick="addToCart(4,'Citruz Daze Soy Candel',30,'https://images.pngnice.com/download/2007/Scented-Candles-Download-PNG-Image.png')">Shop
           Now</button>
       </div>
       
@@ -165,14 +174,14 @@
       <br>
       <div class="avo" id="candel5">
         <div class="textp">
-          <h4>Takewood Toback Soy CAndel $30</h4>
+          <h4>Scented Candle Skinny Girl $30</h4>
           <p>
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
-            not only five centuries </p>
+            Scented candle with the scent of leather, teak and orange. PF. Candle Company's candles are hand-bottled in
+            apothecary-inspired jars with a retro-inspired label and brass lid. </p>
           <di class="textimg1">
             <img src="/candel5.7b8706d2.png" alt=" img0">
         </di></div>
-        <button class="add-to-cart-button" onclick="addToCart(5,'Takewood Toback Soy CAndel',30,'candel5.png')">Shop
+        <button class="add-to-cart-button" onclick="addToCart(5,'Takewood Toback Soy CAndel',30,'https://images.pngnice.com/download/2007/Scented-Candles-PNG-Background-Image.png')">Shop
           Now</button>
       </div>
       
@@ -180,14 +189,14 @@
       <br>
       <div class="avo" id="candel6">
         <div class="textp">
-          <h4>Golden Hour Soy Candel $30</h4>
+          <h4>Scented Candle Aspect of London $30</h4>
           <p>
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
-            not only five centuries </p>
+            Rustling grasses, baked earth, sun rays split between trees. Mellow, dry, tranquil. Bergamot, hay, and
+            golden poppy. </p>
           <di class="textimg1">
             <img src="/candel6.0148fef0.png" alt=" img0">
         </di></div>
-        <button class="add-to-cart-button" onclick="addToCart(6,'Golden Hour Soy Candel',30,'candel6.png')">Shop
+        <button class="add-to-cart-button" onclick="addToCart(6,'Golden Hour Soy Candel',30,'https://images.pngnice.com/download/2007/Scented-Candles-PNG-Free-Download.png')">Shop
           Now</button>
       </div>
       
@@ -195,14 +204,13 @@
       <br>
       <div class="avo" id="candel7">
         <div class="textp">
-          <h4>Rising Moon Soy Candel $30</h4>
+          <h4>Scented Candle Electic $30</h4>
           <p>
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
-            not only five centuries </p>
+            Hand made soy wax candles. Infused with essential oils and decorated with dried flowers and gem stones. </p>
           <di class="textimg1">
             <img src="/candel7.050ce7b4.png" alt=" img0">
         </di></div>
-        <button class="add-to-cart-button" onclick="addToCart(7,'Rising Moon Soy Candel',30,'candel7.png')">Shop
+        <button class="add-to-cart-button" onclick="addToCart(7,'Rising Moon Soy Candel',30,'https://images.pngnice.com/download/2007/Scented-Candles-PNG-Transparent-HD-Photo.png')">Shop
           Now</button>
       </div>
       
@@ -220,8 +228,8 @@
 
           <div class="footer-top__box">
             <h3>INFORMATION</h3>
-            <a href="#">About Us</a>
-            <a href="#">Contact Us</a>
+            <a href="candle galore">About Us</a>
+            <a href="https://github.com/ebrahimmousa">Contact Us</a>
             <a href="#">Site Map</a>
           </div>
 
@@ -233,7 +241,8 @@
                   <use xlink:href="/sprite.f14d31f7.svg#icon-location"></use>
                 </svg>
               </span>
-              Nekvägen 115 72473 Spånga
+              Elsarostigen 6 <br>
+              152 48 Södertälje
             </div>
             <div>
               <span>
@@ -241,7 +250,7 @@
                   <use xlink:href="/sprite.f14d31f7.svg#icon-envelop"></use>
                 </svg>
               </span>
-              company@gmail.com
+              ebrahim-mousa@hotmail.com
             </div>
             <div>
               <span>
@@ -249,16 +258,11 @@
                   <use xlink:href="/sprite.f14d31f7.svg#icon-phone"></use>
                 </svg>
               </span>
-              0790165648
+              0728735725
             </div>
-            <div>
-              <span>
-                <svg>
-                  <use xlink:href="/sprite.f14d31f7.svg#icon-paperplane"></use>
-                </svg>
-              </span>
-              Dream City, Dubai
-            </div>
+          </div>
+          <div class="footer-top__box">
+            <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2042.1458979016081!2d17.635385100000004!3d59.21357619999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f0d6ecb6a953f%3A0xeec06782679f4fc3!2sElsarostigen%206%2C%20152%2048%20S%C3%B6dert%C3%A4lje!5e0!3m2!1sen!2sse!4v1672175608103!5m2!1sen!2sse" width="400" height="200" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
@@ -270,14 +274,9 @@
 
         </div>
       </div>
-      <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.1302045981608!2d17.981892415962474!3d59.33077998165936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d6c21fb0343%3A0xe531e25988e5948e!2sMedieinstitutet!5e0!3m2!1sen!2sse!4v1671706256835!5m2!1sen!2sse" width="400" height="200" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       
     </footer>
     <!-- End Footer -->
-
-
-
-
 
 </header><script src="/products.e4500dc6.js"></script></body>
 

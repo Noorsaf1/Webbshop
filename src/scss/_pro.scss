@@ -41,3 +41,17 @@ $blue: rgb(56, 10, 223);
   
   
   }
+  a.go-to-products {
+    display: flex;
+    justify-content: flex-end;
+    svg {
+      width: 16px;
+      margin-left: 10px;
+    }
+}
+  img.product-img {
+    max-height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

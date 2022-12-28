@@ -55,6 +55,23 @@ font-weight: 500;
 .header {
 position: relative;
 }
+.prduc {
+	width: 100%;
+	min-height: 70px;
+	text-align: center;
+	background: #EFEDED;
+	h1 {
+		position: relative;
+		top: 15px;
+	}
+}
+@media only screen and (max-width: 700px) {
+	.prduc {
+		h1 {
+			font-size: 25px;
+		}
+	}
+}
 .container {
 	max-width: 117rem;
 	margin: 0 auto;

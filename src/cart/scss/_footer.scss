@@ -86,9 +86,7 @@ $blue: rgb(56, 10, 223);
 
 /*map*/
 .iframe {
-	margin-left: 1050px;
-	position: absolute;
-	top: 45px;
+    margin-left: 25px;
 }
 @media only screen and (max-width: 998px) {
 	.iframe {
@@ -100,3 +98,4 @@ $blue: rgb(56, 10, 223);
 		height: 300px;
 	}
 }
+
