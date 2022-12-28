@@ -17,13 +17,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="./main.ts"></script>
+  <!-- <script src="./nav.js"></script> -->
   <!-- Custom StyleSheet -->
   <link rel="stylesheet" href="./scss/main.scss" />
 
   <title>Candles</title>
 </head>
 
-<body onload="loadCart()">
+<body onload="loadjs()">
 
   <!-- Header -->
   <header id="header" class="header">
@@ -46,7 +47,8 @@
             <div class="menu__top">
               <span class="nav__category">Candles Galore!</span>
               <a href="#" class="close__toggle">
-
+                <img width="20" alt="Cross red circle"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Cross_red_circle.svg/512px-Cross_red_circle.svg.png">
               </a>
             </div>
             <ul class="nav__list">
@@ -72,9 +74,9 @@
 
             <label id="cart-icon" href="./cart/index.html" class="icon__item">
               <i class='bx bx-shopping-bag' id="cart-icon"></i>
-              <span id="cart__total">0</span>
+              <span id="cart__total" class="cart__total"></span>
             </label>
-            <div id="cart-list" class="cart-list" style="width: 200px; height:400px; background:wheat;">
+            <div id="cart-list" class="cart-list" style="width: 200px;  background:wheat;">
               <div class="cart-container">
 
               </div>

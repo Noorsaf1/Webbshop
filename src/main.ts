@@ -41,7 +41,18 @@ cart = JSON.parse(cartInStorage).map((cartItem: Cart) => {
         cartItem.image);
 });
 
+function loadjs() {
+
+    loadNav();
+
+    loadCart();
+
+}
+
+
 function loadCart() {
+
+    let totalItems = 0;
 
     document.getElementById('cart-icon')?.addEventListener('click', function () {
         toggleCartList()
@@ -51,6 +62,8 @@ function loadCart() {
     cartContainer.innerHTML = '';
 
     for (let item of cart) {
+
+        totalItems += item.quantity;
 
         let itemHTML = `
         <div class="cart-item" id="cart-item${item.id}">
@@ -70,15 +83,15 @@ function loadCart() {
         cartContainer.innerHTML += itemHTML;
     }
 
-
+    document.querySelector(".cart__total").innerHTML = totalItems;
 }
-
 
 function updateQuantity(event: any, itemId: number) {
     event.preventDefault();
     // Update the item quantity and total price
     cart.find(x => x.id == itemId).quantity = parseInt(document.querySelector('#quantity' + itemId).value);
     updateStorage();
+    loadCart();
 
 }
 
@@ -95,6 +108,7 @@ function removeItem(event: any, itemId: number) {
     let index = cart.findIndex(x => x.id == itemId);
     cart.splice(index, 1);
     updateStorage();
+    loadCart();
 }
 
 
@@ -117,4 +131,31 @@ function addToCart(id: number, name: string, price: number, image: string) {
 
 function toggleCartList() {
     document.getElementById('cart-list')?.classList.toggle("cart-list-view");
+}
+
+
+// document.addEventListener('DOMContentLoaded', loadNav(), false);
+// window.onload = "loadNav()";
+
+function loadNav() {
+
+    const navOpen = document.querySelector(".nav__hamburger");
+    const navClose = document.querySelector(".close__toggle");
+    const menu = document.querySelector(".nav__menu");
+    const navContainer = document.querySelector(".nav__menu");
+
+    navOpen.addEventListener("click", () => {
+        menu.classList.add("open");
+        document.body.classList.add("active");
+        navContainer.style.left = "0";
+        navContainer.style.width = "30rem";
+    });
+
+    navClose.addEventListener("click", () => {
+        menu.classList.remove("open");
+        document.body.classList.remove("active");
+        navContainer.style.left = "-30rem";
+        navContainer.style.width = "0";
+    });
+
 }
