@@ -1,7 +1,3 @@
-//import { Cart } from "./class.js";
-///import bilder from './bilder/*';
-
-
 class Cart {
     id: number
     name: string
