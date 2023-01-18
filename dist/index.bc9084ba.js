@@ -1,5 +1,3 @@
-//import { Cart } from "./class.js";
-///import bilder from './bilder/*';
 class Cart {
     constructor(id, name, price, quantity, image){
         this.id = id;
@@ -12,25 +10,27 @@ class Cart {
 let cart = [];
 let cartInStorage = localStorage.getItem("cart");
 if (cartInStorage === null) cartInStorage = "";
-cart = JSON.parse(cartInStorage).map((cartItem)=>{
+if (cartInStorage != "") cart = JSON.parse(cartInStorage).map((cartItem)=>{
     return new Cart(cartItem.id, cartItem.name, cartItem.price, cartItem.quantity, cartItem.image);
 });
 function loadjs() {
     loadNav();
     loadCart();
+    document.getElementById("cart-icon")?.addEventListener("click", function() {
+        toggleCartList();
+    });
 }
 function loadCart() {
     let totalItems = 0;
     let totalPrice = 0;
-    document.getElementById("cart-icon")?.addEventListener("click", function() {
-        toggleCartList();
-    });
+    let submitButton = document.querySelector(".sub-bot");
     let cartContainer = document.querySelector(".cart-container");
     cartContainer.innerHTML = "";
-    for (let item of cart){
-        totalItems += item.quantity;
-        totalPrice += item.price * item.quantity;
-        let itemHTML = `
+    if (cart.length > 0) {
+        for (let item of cart){
+            totalItems += item.quantity;
+            totalPrice += item.price * item.quantity;
+            let itemHTML = `
         <div class="cart-item" id="cart-item${item.id}">
          <div class="img-div"> <img src="${item.image}" alt="${item.name}" class="cart-item__image"> </div>
           <div class="cart-item__details">
@@ -45,18 +45,24 @@ function loadCart() {
         </div>
         </div>
       `;
-        // append the itemHTML to the cart
-        cartContainer.innerHTML += itemHTML;
-    }
+            // append the itemHTML to the cart
+            cartContainer.innerHTML += itemHTML;
+        }
+        if (submitButton != null) document.querySelector(".sub-bot").classList.remove("disabled");
+    } else if (submitButton != null) document.querySelector(".sub-bot").classList.add("disabled");
     cartContainer.innerHTML += '<div class="total"><span>Total: </span><span>$' + totalPrice + "</span></div>";
     document.querySelector(".cart__total").innerHTML = totalItems;
 }
 function updateQuantity(event, itemId) {
     event.preventDefault();
-    // Update the item quantity and total price
-    cart.find((x)=>x.id == itemId).quantity = parseInt(document.querySelector("#quantity" + itemId).value);
-    updateStorage();
-    loadCart();
+    let quantityField = parseInt(document.querySelector("#quantity" + itemId).value);
+    if (quantityField > 0) {
+        // Update the item quantity and total price
+        cart.find((x)=>x.id == itemId).quantity = quantityField;
+        updateStorage();
+        loadCart();
+    } else //Load the old quantity from the local storage
+    document.querySelector("#quantity" + itemId).value = cart.find((x)=>x.id == itemId).quantity;
 }
 function updateStorage() {
     localStorage.setItem("cart", JSON.stringify(cart));
@@ -81,7 +87,7 @@ function addToCart(id, name, price, image) {
     loadCart();
 }
 function toggleCartList() {
-    document.getElementById("cart-list")?.classList.toggle("cart-list-view");
+    document.getElementById("cart-list").classList.toggle("cart-list-view");
 }
 // document.addEventListener('DOMContentLoaded', loadNav(), false);
 // window.onload = "loadNav()";
@@ -102,6 +108,9 @@ function loadNav() {
         navContainer.style.left = "-30rem";
         navContainer.style.width = "0";
     });
+}
+function completePurchase() {
+    localStorage.setItem("cart", "");
 }
 
 //# sourceMappingURL=index.bc9084ba.js.map

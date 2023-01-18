@@ -20,7 +20,7 @@
 
     <!-- Custom StyleSheet -->
     <link rel="stylesheet" href="./scss/cart.scss" />
-    <script defer src="../main.ts"></script>
+    <script src="../main.ts"></script>
     <title>Candles</title>
 </head>
 
@@ -79,6 +79,7 @@
     <!--Cart-->
     <div class="prduc">
         <h1>Your Cart</h1>
+        <h3>You have <span id="cart__total" class="cart__total"></span> item(s) in the cart</h3>
     </div>
 
 
@@ -87,7 +88,7 @@
 
     <div class="inputt">
 
-        <form action="#">
+        <form action="../completeShop/index.html" onsubmit="completePurchase()">
 
             <div class="cart-container">
 
@@ -131,9 +132,10 @@
                 <br>
                 <input type="text" id="day" name="day" class="line4" required><br><br>
 
-                <input type="submit" value="Complete purchase" class="bott">
+                <input type="submit" value="Complete purchase" class="bott sub-bot">
             </div>
         </form>
+        <a href="../completeShop/index.html" style="displays:none;"></a>
 
     </div>
 

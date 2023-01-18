@@ -63,6 +63,7 @@ position: relative;
 	h1 {
 		position: relative;
 		top: 15px;
+		margin-bottom: 12px;
 	}
 }
 @media only screen and (max-width: 700px) {
@@ -116,4 +117,14 @@ position: relative;
 		padding-left: 0.5rem;
 		transition: opacity 0.3s ease-in-out;
 	}
+} 
+
+.completePurchase {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
